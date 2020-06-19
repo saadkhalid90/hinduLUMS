@@ -1,0 +1,348 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.navContainer {
+  width: 100%;
+  height: 100vh;
+  z-index: 21;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  right: 0px;
+  background: url('../../resources/navbackgrounds/main_b.jpg');
+  background-size: cover;
+}
+
+.onlineSoon {
+  font-size: 18px;
+}
+
+.absoluteBg, .absoluteBgMain {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.absoluteBg {
+  opacity: 0;
+}
+
+.navItem {
+  width: 100%;
+  padding: 10px 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.projectTitle {
+  font-size: 30px;
+  margin: 5px 0px;
+  font-family: 'DM Serif Display', serif;
+  cursor: pointer;
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  -webkit-transition: 0.3s ease-in;
+  -o-transition: 0.3s ease-in;
+  transition: 0.3s ease-in;
+}
+
+.projectTitle:hover {
+  color: black;
+}
+
+.underline {
+  background-image: -o-linear-gradient(330deg, #FFEB3B 0%, #FFEB3B 100%);
+  background-image: linear-gradient(120deg, #FFEB3B 0%, #FFEB3B 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.06em;
+  background-position: 0 88%;
+  -webkit-transition: background-size 0.25s ease-in;
+  -o-transition: background-size 0.25s ease-in;
+  transition: background-size 0.25s ease-in;
+  &:hover {
+    background-size: 100% 88%;
+  }
+}
+
+.designed_by {
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plotreeLogo {
+  width: 30px;
+}
+
+.browse_proj_heading {
+  margin-left: 90px;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  color: #FFEB3B;
+  text-transform: uppercase;
+}
+
+.disclaimer_container {
+  position: absolute;
+  left: 90px;
+  bottom: 40px;
+  width: 70%;
+  color: white;
+  font-size: 14px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.disclaimer {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.lums_logo {
+  position: absolute;
+  top: 40px;
+  left: 90px;
+  width: 70px;
+  z-index: 2;
+}
+
+
+.closeIcon {
+  border-radius: 50%;
+  background: #243B61;
+  color: #fff;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 30px;
+  position: absolute;
+  right: 40px;
+  top: 40px;
+  -webkit-transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  -o-transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.closeIcon:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+@media only screen and (max-width: 1024px) {
+  .mobileChaptersContainer {
+    position: relative;
+    z-index: 1;
+  }
+  .browse_proj_heading {
+    margin-left: 40px;
+    margin-top: 15px;
+  }
+  .onlineSoon {
+    font-size: 18px;
+  }
+  .lums_logo {
+    width: 60px;
+    top: 20px;
+    left: 40px;
+  }
+  .closeIcon {
+    top: 20px;
+  }
+  .disclaimer_container {
+    left: 40px;
+    width: 55%;
+  }
+  .navItem {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    padding: 5px 40px;
+  }
+  .projectTitle {
+    font-size: 18px;
+  }
+  .mobileChapterNavsContain {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .mobileChapterNavsContain > .navItem {
+    width: 33%;
+    padding: 0px 40px;
+  }
+}
+
+@media only screen and (max-width: 740px) {
+  .mobileChapterNavsContain > .navItem {
+    width: 50%;
+    padding: 0px 40px;
+  }
+  .designed_by {
+    bottom: 15px;
+  }
+  .disclaimer_container {
+    width: 75%;
+    bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .disclaimer_container, .lums_logo {
+    left: 20px;
+  }
+  .closeIcon {
+    right: 20px;
+  }
+  .navItem {
+    padding: 5px 20px;
+  }
+  .browse_proj_heading {
+    margin-left: 20px;
+    margin-top: 25px;
+  }
+  .mobileChapterNavsContain > .navItem {
+    width: 50%;
+    padding: 0px 20px;
+  }
+  .projectTitle {
+    font-size: 16px;
+  }
+  .designed_by {
+    right: 20px;
+    bottom: 15px;
+  }
+  .disclaimer_container {
+    width: 75%;
+    bottom: 15px;
+  }
+  .disclaimer {
+    font-size: 12px;
+  }
+  .designed_by > i {
+    display: none;
+  }
+  .lums_logo {
+    width: 50px;
+  }
+  .designed_by {
+    bottom: 15px;
+  }
+  .disclaimer_container {
+    bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 420px) and (max-height: 675px) {
+  .projectTitle {
+    font-size: 14px;
+  }
+  .navItem {
+    padding: 0px 20px;
+  }
+  .mobileChapterNavsContain > .navItem {
+    width: 100%;
+  }
+  .browse_proj_heading {
+    margin-bottom: 10px;
+    font-size: 14px;
+    margin-top: 15px;
+  }
+  .disclaimer_container {
+    width: 80%;
+  }
+  .disclaimer {
+    font-size: 11px;
+  }
+}
+
+@media only screen and (max-width: 420px) and (min-height: 675px) {
+  .browse_proj_heading {
+    margin-top: 20px;
+  }
+  .mobileChapterNavsContain > .navItem {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 420px) and (max-height: 600px) {
+  .browse_proj_heading {
+    font-size: 12px;
+  }
+  .projectTitle {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 675px) {
+  .browse_proj_heading {
+    font-size: 15px;
+  }
+  .projectTitle {
+    font-size: 26px;
+    margin: 3px 0px;
+  }
+  .project_nav_options_container {
+    margin-bottom: -13px;
+  }
+  .closeIcon {
+    width: 30px;
+    height: 30px;
+  }
+}

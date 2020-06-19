@@ -1,0 +1,145 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.imgOverlayWrap {
+    position: relative;
+    display: inline-block;
+}
+
+.imgOverlayWrap img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.imgOverlayWrap svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tooltip {
+    position: fixed;
+    background-color: rgba(255,255,255,0.9);
+    width: 275px;
+    padding: 10px;
+    z-index: 5;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.bold {
+  font-weight: 700;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.tooltip_text {
+  font-size: 14px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+
+.pulse {
+  fill: #bdbdbd;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+  -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+          animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.hover {
+  fill: #bdbdbd;
+  -webkit-animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+          animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.hover:hover {
+  -webkit-animation-name: hover;
+          animation-name: hover;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  fill: #FFEB3B;
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+  fill-opacity: 0.9;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    fill: #bdbdbd;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    fill-opacity: 0.8;
+  }
+  75% {
+    fill: #FFEB3B;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    fill-opacity: 0.9;
+  }
+  100% {
+    fill: #bdbdbd;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    fill-opacity: 0.8;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    fill: #bdbdbd;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    fill-opacity: 0.8;
+  }
+  75% {
+    fill: #FFEB3B;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    fill-opacity: 0.9;
+  }
+  100% {
+    fill: #bdbdbd;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    fill-opacity: 0.8;
+  }
+}
+
+@-webkit-keyframes hover {
+  from {
+    fill: #bdbdbd;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    fill-opacity: 0.8;
+  }
+  to {
+    fill: #FFEB3B;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    fill-opacity: 0.9;
+  }
+}
+
+@keyframes hover {
+  from {
+    fill: #bdbdbd;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    fill-opacity: 0.8;
+  }
+  to {
+    fill: #FFEB3B;
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    fill-opacity: 0.9;
+  }
+}

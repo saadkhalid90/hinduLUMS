@@ -1,0 +1,192 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.mobile_section_title_container {
+  height: 300px;
+  width: 100%;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.absoluteBack {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.content {
+  position: relative;
+  z-index: 1;
+  padding: 40px 40px;
+  height: 100%;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.date {
+  font-size: 14px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+  color: #545855;
+  margin-bottom: 5px;
+}
+
+.title {
+  font-size: 28px;
+  font-family: 'DM Serif Display', serif;
+  margin: 0px;
+  margin-bottom: 10px;
+  color: #545855;
+}
+
+.absolute_title {
+  position: absolute;
+  bottom: 20px;
+  width: calc(100% - 80px);
+}
+
+.chapterNumber {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin: 0px;
+  color: #545855;
+}
+
+.note {
+  font-size: 12px;
+  margin: 8px 0px;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.inverted_title, .inverted_chapterNumber, .inverted_date {
+  color: #FFEB3B;
+}
+
+.inverted_note {
+  color: white;
+}
+
+.year {
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+.chevron {
+  border-radius: 50%;
+  background: #19469D;
+  color: white;
+  width: 30px;
+  height: 30px;
+  font-size: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  -o-transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  cursor: pointer;
+}
+
+.chevron:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.inverted_chevron {
+  color: purple;
+  background: white;
+}
+
+.content_centered {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  z-index: 2;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.abs_lums_logo {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 50px;
+}
+
+.absolute_links {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
+
+.browseChapters, .backtoHome {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: right;
+  z-index: 5;
+}
+
+.browseChapters > p , .backtoHome > p {
+  margin: 0px;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+
+.browseChapters {
+  color: purple;
+}
+
+.backtoHome {
+  color: #D00024;
+}
+
+.browseChapters_inverted {
+  color: #FFEB3B;
+}
+
+.backtoHome_inverted {
+  color: white;
+}
+
+.inverted_nextChapter {
+  color: white;
+}
+
+@media only screen and (max-width: 500px) {
+  .content {
+    padding: 30px 20px;
+  }
+  .absolute_title {
+    width: calc(100% - 40px);
+  }
+}

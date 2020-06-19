@@ -1,0 +1,391 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.navContainer {
+  position : fixed;
+  width: 90px;
+  z-index: 20;
+  height: 100vh;
+  left: 0;
+  top : 0;
+  -webkit-transition: 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+}
+
+.nav_options_container {
+  width: 90px;
+  position: relative;
+  z-index: 20;
+  background: #383838;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#383838), color-stop(#353535), color-stop(#333333), color-stop(#303030), to(#2e2e2e));
+  background-image: -o-linear-gradient(left top, #383838, #353535, #333333, #303030, #2e2e2e);
+  background-image: linear-gradient(to right bottom, #383838, #353535, #333333, #303030, #2e2e2e);
+}
+
+.nav_options_container, .slide_options_container {
+  height: 100%;
+}
+
+.slide_options_container {
+  position: fixed;
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#494848), color-stop(#454444), color-stop(#404040), color-stop(#3c3c3c), to(#383838));
+  background-image: -o-linear-gradient(left top, #494848, #454444, #404040, #3c3c3c, #383838);
+  background-image: linear-gradient(to right bottom, #494848, #454444, #404040, #3c3c3c, #383838);
+  background: url('../../resources/slide menu.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 255px;
+  top: 0px;
+  left: 85px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 20px 25px 0px 20px;
+  -webkit-transform: translate3d(-255px, 0px, 0px);
+          transform: translate3d(-255px, 0px, 0px);
+  -webkit-transition: 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: 0.8s cubic-bezier(0.77, 0, 0.175, 1);
+  z-index: 15;
+  will-change: transform;
+}
+
+.slide_navigation_option {
+  cursor: pointer;
+  position: relative;
+  z-index: 20;
+}
+
+.slide_options_chapter_container {
+  margin-bottom: 12px;
+  border-bottom: 1px solid #FFEB3B;
+}
+
+.slide_options_chapter {
+  font-size: 16px;
+  color: #FFEB3B;
+  font-weight: 600;
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.browse_slides_text {
+  cursor: pointer;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin: 0px;
+  padding:20px 0px 12px 0px;
+  letter-spacing: 1px;
+  color: #FFEB3B;
+  font-family: 'Roboto', sans-serif;
+}
+
+.circle_progress_container {
+  width: 50%;
+  left: 25%;
+  cursor: pointer;
+  position: absolute;
+  -webkit-transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: 0.5s cubic-bezier(0.77, 0, 0.175, 1);
+  will-change: transform;
+}
+
+.slide_option_parent {
+  padding-bottom: 20px;
+}
+
+.slide_number {
+  color: #FFEB3B;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  margin: 3px 0px;
+}
+
+.slide_link {
+  -webkit-transition: 0.1s ease;
+  -o-transition: 0.1s ease;
+  transition: 0.1s ease;
+  text-decoration: none;
+  color: white;
+}
+
+.slide_link:hover {
+  color: #FFEB3B;
+}
+
+.slide_options {
+  -webkit-transition: 1s cubic-bezier(0.77, 0, 0.175, 1);
+  -o-transition: 1s cubic-bezier(0.77, 0, 0.175, 1);
+  transition: 1s cubic-bezier(0.77, 0, 0.175, 1);
+  opacity: 0;
+}
+
+.slide_option {
+  color: inherit;
+  font-size: 14px;
+  text-decoration: none;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  margin: 0px;
+}
+
+.slide_option:hover {
+  color: #FFEB3B;
+}
+
+.slide_option > p {
+  margin: 0px;
+}
+
+.chaptersContainer{
+  height: calc(100% - 75px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  top: 75px;
+  width: 100%;
+  -webkit-transition: 0.35s ease-out;
+  -o-transition: 0.35s ease-out;
+  transition: 0.35s ease-out;
+}
+
+.navItemContainer {
+  height: 62px;
+  position: relative;
+}
+
+.circle {
+    width: 16px;
+    position: relative;
+    z-index: 1;
+    height: 16px;
+    background-color: #f5f5f5;
+    border-radius: 50%;
+    -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+            transform: scale(0.8);
+    -webkit-transition: 0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+    transition: 0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+    -o-transition: 0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform;
+    transition: 0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform;
+    transition: 0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.4s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+}
+
+.circlehover {
+  -webkit-transition: -webkit-transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: -webkit-transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  -o-transition: transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  transition: transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86), -webkit-transform 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.circlehover:hover {
+    -webkit-transform: scale(0.85);
+        -ms-transform: scale(0.85);
+            transform: scale(0.85);
+    background-color: #D00024;
+}
+
+.active {
+    -webkit-transform: scale(1) !important;
+        -ms-transform: scale(1) !important;
+            transform: scale(1) !important;
+    background-color: #D00024;
+}
+
+.activeBorder {
+    width: 27px;
+    height: 27px;
+    border: 1px solid red;
+    border-style: dashed;
+    border-radius: 50%;
+    position: absolute;
+    -webkit-transform: translate(-22%,-22%);
+        -ms-transform: translate(-22%,-22%);
+            transform: translate(-22%,-22%);
+}
+
+@-webkit-keyframes animation-entering {
+  from {width: 0px;}
+  to {width: 330px;}
+}
+
+@keyframes animation-entering {
+  from {width: 0px;}
+  to {width: 330px;}
+}
+
+@-webkit-keyframes animation-exiting {
+  from {width: 250px;}
+  to {width: 0px;}
+}
+
+@keyframes animation-exiting {
+  from {width: 250px;}
+  to {width: 0px;}
+}
+
+.chapterEnterExitTransition{
+  -webkit-transition: 0.7s, -webkit-transform;
+  transition: 0.7s, -webkit-transform;
+  -o-transition: transform, 0.7s;
+  transition: transform, 0.7s;
+  transition: transform, 0.7s, -webkit-transform;
+}
+
+.tooltipEntering {
+  -webkit-animation-name: animation-entering;
+          animation-name: animation-entering;
+}
+
+.tooltipExiting {
+  -webkit-animation-name: animation-exiting;
+          animation-name: animation-exiting;
+}
+
+.tooltipChapterContainer{
+  position: absolute;
+  width: 320px;
+}
+
+.tooltipContainer{
+  width: 0px;
+  margin-top: -40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  position: fixed;
+  -webkit-transition: top, 0.5s;
+  -o-transition: top, 0.5s;
+  transition: top, 0.5s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+          animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  z-index: 16;
+}
+
+.tooltipArrow{
+  height: 0;
+  width: 0;
+  border: 10px solid transparent;
+  border-right-color: #383838;
+  opacity: 0.75;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+/*.tooltip{
+    height: 90px;
+    box-shadow: 0 6px 12px rgba(0,0,0,.08);
+    width: 250px;
+    background-color: #9e9e9e;
+    padding: 15px;
+    box-sizing: border-box;
+    opacity: 0.75;
+    border-radius: 10px;
+}*/
+
+.line {
+  height: 62px;
+  width: 2px;
+  position: absolute;
+  top: 3.2px;
+  left: 46%;
+  background-color: #8c8c8c;
+}
+
+.completed {
+  background-color: red;
+}
+
+.lumsLogo {
+  position: absolute;
+  bottom: 20px;
+  width: 60%;
+  left: 20%;
+  -webkit-transition: 0.35s ease-in;
+  -o-transition: 0.35s ease-in;
+  transition: 0.35s ease-in;
+}
+
+.tooltip{
+    height: 90px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.08);
+            box-shadow: 0 6px 12px rgba(0,0,0,.08);
+    width: 320px;
+    background-color: #383838;
+    padding: 15px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    opacity: 0.75;
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+}
+
+.tooltip_chapter_number {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+  color: #FFEB3B;
+}
+
+.tooltip_chapter_title {
+  margin: 6px 0px 0px 0px;
+  font-size: 18px;
+  font-family: 'DM Serif Display', serif;
+  color: white;
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 675px) {
+  .browse_slides_text {
+    font-size: 10px;
+  }
+  .slide_option_parent {
+    padding-bottom: 10px;
+  }
+  .slide_option {
+    color: inherit;
+    font-size: 12px;
+    text-decoration: none;
+    transition: 0.5s ease;
+    margin: 0px;
+  }
+  .slide_options_chapter {
+    font-size: 14px;
+  }
+}

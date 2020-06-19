@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Mehr';
+  src: url('./resources/fonts/Nastaliq.ttf') format('truetype');
+}
+
+.urdu {
+  font-family: 'Mehr';
+}
+
+.shair {
+  font-size: 38px;
+  text-align-last: justify;
+}
+
+.shair_source {
+  text-align-last: right !important;
+}
+
+.shair > p, .shair > .margined > p {
+  margin: 4px;
+  text-align: right;
+}
+
+.shair > .margined {
+  margin-top: 20px;
+}

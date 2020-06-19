@@ -1,0 +1,12 @@
+@value leftPadding: 130px;
+@value rightPadding 40px;
+
+.content {
+    padding-left: leftPadding;
+    padding-right: rightPadding;
+}
+
+.leftPaddedContainer {
+    padding-left: leftPadding;
+}
+

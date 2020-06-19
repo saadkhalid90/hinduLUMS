@@ -1,0 +1,84 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.rhap_container {
+  background: rgba(255,255,255,0.4);
+  border-radius: 10px;
+  margin-top: 15px;
+  width: 400px;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 45px;
+  padding: 0px 20px;
+  .rhap_progress-section {
+    width: 61%;
+    padding-left: 10%;
+    .rhap_time {
+      font-size: 12px;
+    }
+    .rhap_progress-container {
+      .rhap_progress-bar {
+        .rhap_progress-indicator {
+          width: 12px;
+          height: 12px;
+          top: -4px;
+          background: #383838;
+        }
+      }
+    }
+  }
+  .rhap_controls-section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-top: 8px;
+    .rhap_additional-controls {
+      display: none;
+    }
+    .rhap_main-controls {
+      position: absolute;
+      left: 10px;
+      top: 7px;
+      .rhap_play-pause-button {
+        font-size: 32px;
+        width: 32px;
+        height: 32px;
+        color: #383838;
+      }
+    }
+    .rhap_volume-controls {
+      margin-bottom: 10px;
+      .rhap_volume-container {
+        .rhap_volume-button {
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 22px;
+                  flex: 0 0 22px;
+          font-size: 22px;
+          width: 22px;
+          height: 22px;
+          color: #383838;
+        }
+        .rhap_volume-bar-area {
+          .rhap_volume-bar {
+            .rhap_volume-indicator {
+              background: #383838;
+            }
+          }
+        }
+      }
+    }
+  }
+}

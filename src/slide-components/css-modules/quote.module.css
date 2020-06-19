@@ -1,0 +1,130 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.quote_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+}
+
+.quote_border_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0px;
+}
+
+.quote_border {
+  height: 3px;
+  width: calc(50% - 40px);
+  background: black;
+  border-radius: 50px;
+}
+
+.quote_icon_up, .quote_icon_down {
+  width: 38px;
+}
+
+.quote_icon_down {
+  -webkit-transform: rotate(180deg);
+      -ms-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.quote {
+  font-family: 'DM Serif Display', serif;
+  font-size: 25px;
+}
+
+.source {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 1200px) {
+  .quote {
+    font-size: 19px;
+  }
+
+  .source {
+    font-size: 16px;
+  }
+  .quote_icon_up, .quote_icon_down {
+    width: 30px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .quote_container {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .quote {
+    font-size: 18px;
+  }
+  .source {
+    font-size: 14px;
+  }
+  .mobile_source_img {
+    position: absolute;
+    width: 125px;
+    bottom: -60px;
+    right: 50px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .quote_icon_up, .quote_icon_down {
+    width: 28px;
+  }
+  .quote {
+    font-size: 16px;
+  }
+  .source {
+    font-size: 12px;
+  }
+  .mobile_source_img {
+    width: 110px;
+    right: 20px;
+  }
+}
+
+@media only screen and (max-width: 420px) and (max-height: 675px) {
+  .mobile_source_img {
+    width: 95px;
+    right: 0px;
+  }
+}
+
+@media only screen and (max-width: 420px) and (max-height: 600px) {
+  .source {
+    width: 65%;
+  }
+  .quote_icon_up, .quote_icon_down {
+    width: 24px;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-height: 675px) {
+  .quote {
+    font-size: 20px;
+  }
+  .source {
+    font-size: 16px;
+  }
+  .quote_icon_up, .quote_icon_down {
+    width: 30px;
+  }
+}

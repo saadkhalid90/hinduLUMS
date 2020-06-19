@@ -1,0 +1,422 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.project_title_container {
+  width: calc(100% + 90px);
+  position: relative;
+  margin-left: -90px;
+}
+
+.project_title_content {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.centered_content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project_title_lums_logo {
+  width: 120px;
+  padding-top: 75px;
+}
+
+.scroll_prompt {
+  padding-bottom: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.project_title_optional_logo {
+  width: 90px;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-size: 55px;
+  margin: 0px;
+  font-family: 'DM Serif Display', serif;
+  margin: 0px;
+  margin-bottom: 14px;
+}
+
+.subTitle {
+  font-size: 28px;
+  margin: 0px;
+  font-family: 'DM Serif Display', serif;
+  margin: 0px;
+  margin-bottom: 18px;
+}
+
+.description {
+  font-family: 'Roboto', sans-serif;
+  width: 55%;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0px;
+  text-align: center;
+}
+
+.title_scroll_message {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  text-transform: uppercase;
+  margin: 0px;
+}
+
+.title_explore_message {
+  font-family: 'Frank Ruhl Libre', serif;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 14px 0px;
+  text-transform: uppercase;
+}
+
+.chevron {
+  font-size: 36px;
+  color: #19469D;
+}
+
+.designed_by {
+  position: absolute;
+  bottom: 30px;
+  cursor: pointer;
+  right: 0px;
+  font-weight: 700;
+  font-size: 12px;
+  font-family: 'Roboto', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.rectangle {
+  width: 30px;
+  height: 5px;
+  background: #19469D;
+  margin-top: 5px;
+  position: absolute;
+  right: 0px;
+}
+
+.chevron {
+  border-radius: 50%;
+  background: #19469D;
+  color: white;
+  width: 35px;
+  height: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 31px;
+  -webkit-transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  -o-transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform;
+  transition: 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) transform, 0.6s cubic-bezier(0.75, -1.27, 0.3, 2.33) -webkit-transform;
+  cursor: pointer;
+}
+
+.chevron:hover {
+  -webkit-transform: scale(1.1);
+      -ms-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.plotreeLogo {
+  width: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .project_title_container {
+    width: 100%;
+    margin: 0px;
+    overflow: hidden;
+  }
+  .absoluteBack {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+  }
+
+  .project_title_lums_logo {
+    width: 85px;
+    margin-bottom: 20px;
+  }
+  .project_title_optional_logo {
+    width: 75px;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .subTitle {
+    font-size: 22px;
+  }
+
+  .description {
+    font-size: 16px;
+  }
+
+  .mobile_logos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+
+  .title_scroll_message {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .title_explore_message {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+
+  .chevron {
+    width: 30px;
+    height: 30px;
+    font-size: 26px;
+  }
+  .designed_by {
+    right: 30px;
+    font-size: 11px;
+  }
+  .plotreeLogo {
+    width: 25px;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .title {
+    font-size: 30px;
+  }
+
+  .subTitle {
+    font-size: 20px;
+  }
+
+  .description {
+    width: 85%;
+  }
+  .project_title_lums_logo {
+    width: 72px;
+    padding-top: 120px;
+  }
+  .scroll_prompt {
+    padding-bottom: 120px;
+  }
+  .project_title_optional_logo {
+    width: 65px;
+  }
+}
+
+
+@media only screen and (max-width: 420px) and (max-height: 675px) {
+  .project_title_lums_logo {
+    width: 75px;
+    padding-top: 90px;
+    margin-bottom: 20px;
+  }
+  .project_title_optional_logo {
+    width: 55px;
+  }
+  .title {
+    font-size: 26px;
+  }
+
+  .subTitle {
+    font-size: 16px;
+  }
+
+  .description {
+    width: 90%;
+    font-size: 14px;
+  }
+  .title_scroll_message {
+    font-size: 10px;
+    margin-bottom: 10px;
+  }
+
+  .title_explore_message {
+    font-size: 12px;
+    margin-bottom: 10px;
+  }
+  .chevron {
+    width: 26px;
+    height: 26px;
+    font-size: 26px;
+  }
+  .scroll_prompt {
+    padding-bottom: 80px;
+  }
+}
+
+@media only screen and (max-width: 390px) and (max-height: 675px) {
+  .project_title_lums_logo {
+    width: 55px;
+    padding-top: 110px;
+    margin-bottom: 10px;
+  }
+  .project_title_optional_logo {
+    width: 45px;
+  }
+  .title {
+    font-size: 22px;
+  }
+  .subTitle {
+    font-size: 14px;
+  }
+  .description {
+    width: 90%;
+    font-size: 12px;
+  }
+  .title_scroll_message {
+    font-size: 10px;
+    margin-bottom: 8px;
+  }
+
+  .title_explore_message {
+    font-size: 12px;
+    margin-bottom: 8px;
+  }
+  .chevron {
+    width: 22px;
+    height: 22px;
+    font-size: 22px;
+  }
+  .scroll_prompt {
+    padding-bottom: 110px;
+  }
+}
+
+@media only screen and (max-height: 460px) {
+  .project_title_container {
+    height: 625px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .project_title_lums_logo {
+    padding-top: 0px;
+    margin-top: 0px;
+  }
+  .project_title_content {
+    justify-content: center;
+  }
+  .scroll_prompt {
+    padding-bottom: 30px;
+  }
+  .description {
+    line-height: 18px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 675px) {
+  .project_title_lums_logo {
+    width: 80px;
+    padding-top: 75px;
+  }
+
+  .scroll_prompt {
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project_title_optional_logo {
+    width: 90px;
+    margin-bottom: 10px;
+  }
+
+  .title {
+    font-size: 42px;
+    text-align: center;
+    margin: 0px;
+    font-family: 'DM Serif Display', serif;
+    margin: 0px;
+    margin-bottom: 18px;
+  }
+
+  .description {
+    font-family: 'Roboto', sans-serif;
+    width: 60%;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .title_scroll_message {
+    font-size: 12px;
+    text-transform: uppercase;
+    margin: 0px;
+  }
+
+  .title_explore_message {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 14px 0px;
+  }
+
+  .chevron {
+    font-size: 26px;
+    width: 30px;
+    height: 30px;
+  }
+}

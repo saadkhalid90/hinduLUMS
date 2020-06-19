@@ -1,0 +1,109 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.layout {
+    position: relative;
+}
+
+.layout_100 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding-top: 50px;
+}
+
+.remove_layout_100_padding {
+  padding: 0px;
+}
+
+.layout_flexed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.layout_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  will-change: transform, opacity;
+}
+
+.justify_center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.align_center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.fixed_height {
+  height: 100%;
+}
+
+.container_100 {
+  width: 100%;
+}
+
+.container_80 {
+  width: 80%;
+}
+
+.container_60 {
+  width: 60%;
+}
+
+.container_40 {
+  width: 40%;
+}
+
+.container_45 {
+  width: 45%;
+}
+
+.container_55 {
+  width: 55%;
+}
+
+.container_48 {
+  width: 48%;
+}
+
+.container_52 {
+  width: 52%;
+}
+
+.container_50 {
+  width: 50%;
+}
+
+.container_30 {
+  width: 30%;
+}
+
+.container_33 {
+  width: 33%;
+}

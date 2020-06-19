@@ -1,0 +1,152 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.navContainer {
+    position: fixed;
+    top: 0;
+    margin-top: 10px;
+    z-index: 10;
+    width: 100%;
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
+        grid-template-areas: "pTitle cNum menu";
+    -webkit-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+.navContainerMobile {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 75px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 40px;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
+  transition: 0.5s ease;
+  -webkit-transition-property: background-color, opacity;
+  -o-transition-property: background-color, opacity;
+  transition-property: background-color, opacity;
+
+}
+
+.navContainerMobileFade{
+  opacity: 0;
+}
+
+
+.projectName {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+    font-family: 'DM Serif Display', serif;
+    font-size: 21px;
+    margin: 0px;
+    grid-area: pTitle;
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.chapterNumber {
+    -ms-grid-row: 1;
+    -ms-grid-column: 2;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-size: 13px;
+    grid-area: cNum;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -webkit-transition: opacity 0.5s;
+    -o-transition: opacity 0.5s;
+    transition: opacity 0.5s;
+}
+
+.menu {
+    -ms-grid-row: 1;
+    -ms-grid-column: 3;
+    font-size: 32px;
+    cursor: pointer;
+    grid-area: menu;
+    -ms-grid-column-align: end;
+        justify-self: end;
+}
+
+.lums_logo {
+  width: 60px;
+  margin-right: 10px;
+}
+
+.logo_project_name {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  .projectName {
+    font-size: 18px;
+  }
+  .standardNav {
+    color: white;
+  }
+
+  .backgroundNav {
+    background-color: #383838;
+    -webkit-box-shadow: 0 0 12px 3px rgba(0,0,0,.16);
+            box-shadow: 0 0 12px 3px rgba(0,0,0,.16);
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .navContainerMobile {
+    padding: 10px 20px;
+  }
+  .lums_logo {
+    width: 50px;
+  }
+  .projectName {
+    font-size: 18px;
+  }
+  .menu {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 420px) and (max-height: 675px) {
+  .projectName {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-height: 675px) {
+  .projectName {
+    font-size: 16px;
+  }
+  .chapterNumber {
+    font-size: 11px;
+    letter-spacing: 1.4px;
+  }
+}

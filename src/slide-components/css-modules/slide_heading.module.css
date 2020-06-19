@@ -1,0 +1,153 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.26, autoprefixer: v9.7.3) */
+
+.slide_title_container {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 75px 0px 0px 0px;
+}
+
+.no_padding {
+  padding: 0px 0px 0px 0px !important;
+}
+
+.align_start {
+  -webkit-box-align: start !important;
+      -ms-flex-align: start !important;
+          align-items: flex-start !important;
+}
+
+.align_left {
+  text-align: left !important;
+}
+
+.slideTitle {
+    font-family: 'DM Serif Display', serif;
+    font-size: 40px;
+    margin: 0px 0px 5px 0px;
+    text-align: center;
+    color: #545855;
+}
+
+.slideTitle_Inverted {
+  color: #FFEB3B;
+}
+
+.slideSubTitle {
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 20px;
+    line-height: 26px;
+    margin: 0px;
+    text-align : center;
+    margin: 0px 0px 5px 0px;
+}
+
+.slideSubTitle_Inverted {
+  color: white;
+}
+
+.slidePara {
+  font-size: 18px;
+  line-height: 24px;
+  font-family: 'Roboto', sans-serif;
+  margin: 0px;
+  text-align: center;
+  margin: 10px 0px 5px 0px;
+}
+
+.slidePara_Inverted {
+  color: white;
+}
+
+
+.slideTitleYear {
+  font-family: 'Frank Ruhl Libre', serif;
+}
+
+@media only screen and (max-width: 1300px) {
+  .slideTitle {
+    font-size: 34px;
+  }
+  .slidePara > p {
+    font-size: 17px;
+    margin: 8px 0px;
+  }
+
+  .slidePara > div > p {
+    font-size: 17px;
+    margin: 8px 0px;
+  }
+
+  .slidePara {
+    font-size: 17px;
+    margin: 8px 0px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .slideTitle {
+    font-size: 32px;
+  }
+
+  .slideSubTitle {
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .slidePara > p {
+    font-size: 16px;
+    margin: 8px 0px;
+  }
+
+  .slidePara > div > p {
+    font-size: 16px;
+    margin: 8px 0px;
+  }
+
+  .slidePara {
+    font-size: 16px;
+    margin: 8px 0px;
+  }
+}
+
+@media only screen and (max-width: 1115px) {
+  .slideTitle {
+    font-size: 28px;
+  }
+}
+
+
+@media only screen and (min-width: 1024px) and (max-height: 675px) {
+  .slideTitle {
+    font-size: 32px;
+  }
+
+  .slideSubTitle {
+    font-size: 16px;
+    line-height: 18px;
+    margin: 0px;
+  }
+
+  .slidePara > p {
+    font-size: 14px;
+    margin: 5px 0px;
+    line-height: 17px;
+  }
+
+  .slidePara > div > p {
+    font-size: 14px;
+    margin: 5px 0px;
+    line-height: 17px;
+  }
+
+  .slidePara {
+    font-size: 14px;
+    margin: 5px 0px;
+    line-height: 17px;
+  }
+}
