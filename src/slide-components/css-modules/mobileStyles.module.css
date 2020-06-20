@@ -174,9 +174,25 @@
           justify-content: center;
 }
 
+#hideBrahmoGall, #hideCasteGall {
+  display: none;
+}
+
 @media only screen and (min-width: 975px) {
   .hudoodGalleryButtonHide {
     display: none;
+  }
+}
+
+@media only screen and (max-width: 945px) {
+  #hideCasteGall {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  #hideBrahmoGall {
+    display: block;
   }
 }
 

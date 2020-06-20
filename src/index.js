@@ -7,8 +7,8 @@ import './resources/fonts/Nastaliq.ttf'
 import * as serviceWorker from './serviceWorker';
 
 function getAppElement(){
-  //  return (window.innerWidth > 1025) ? <App/> : <MobileApp/>
-    return <App/>
+    return (window.innerWidth > 1025) ? <App/> : <MobileApp/>
+  //  return <App/>
 }
 
 window.onresize = function(){

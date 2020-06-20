@@ -328,46 +328,26 @@
 }
 
 @media only screen and (max-width: 1024px) {
-  #Article_295A_Mobile {
-    width: 50%;
-    margin-left: 25%;
+  #SwamiDyan {
+    width: 70%;
   }
-  #inquilab2, #inquilab1 {
+  #Lajpat_AS1 {
+    width: 60%;
+  }
+  #BSMandir, #DSMandir {
+    width: 70%;
+  }
+  #DSMandir {
+    margin-left: 30%;
+  }
+  #SDMandir {
     width: 100%;
   }
-
-  #inquilab3 {
-    width: 100%;
+  #LLRai_Statue {
+    width: 60%;
   }
-
-  #InquilabHinduMuslim {
-    width: 80%;
-  }
-
-  #Newspaper2 {
-    width: 75%;
-  }
-
-  #BandeM {
-    width: 80%;
-  }
-
-  #Newspaper3 {
+  #Lajpat_AS2 {
     width: 90%;
-  }
-
-  #Newspaper1 {
-    width: 90%;
-  }
-
-  #Burial1 {
-    width: 80%;
-    margin-bottom: 0px;
-  }
-
-  #Burial2 {
-    width: 100%;
-    margin-bottom: 0px;
   }
 }
 
