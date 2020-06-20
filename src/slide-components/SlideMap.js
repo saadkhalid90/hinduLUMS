@@ -26,7 +26,6 @@ import Agnihotri from '../resources/media/ch1/Agnihotri.png';
 import HansRaj from '../resources/media/ch1/HansRaj.png';
 import SwamiDyan from '../resources/media/ch1/SwamiDyananda.jpg';
 import Lajpat_AS1 from '../resources/media/ch1/Lajpat_AS1.jpg';
-import Lajpat_AS2 from '../resources/media/ch1/Lajpat_AS2.jpg';
 import DAVPoem from '../resources/media/ch1/DAVPoem.jpeg';
 import DAVStaff from '../resources/media/ch1/DAV/DAVLahoreOldStaff.jpg';
 import DAVLahore from '../resources/media/ch1/DAV/DAVLahore.jpg';
@@ -132,7 +131,6 @@ const imageArr = [
   HansRaj,
   SwamiDyan,
   Lajpat_AS1,
-  Lajpat_AS2,
   DAVPoem,
   DAVStaff,
   DAVLahore,
@@ -965,22 +963,22 @@ const slideMap = {
                       scrollContainerRef={props.scrollContainerRef}
                       xPos={props.xPos}>
                         <div ref={props.addParallaxAndFadeRef(6)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33, layoutStyles.justify_center)}>
-                          <div id={imageStyles.Politics1} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",0])}>
+                          <div id={imageStyles.Politics1} className={classNames(imageStyles.full_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",0])}>
                             <img alt="Milap Article" className={classNames(imageStyles.hover_effect)} src={BadnaseebHindu}/>
                           </div>
                         </div>
                         <div ref={props.addParallaxAndFadeRef(-5)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33, layoutStyles.align_center)}>
-                          <div id={imageStyles.Politics2} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",1])}>
+                          <div id={imageStyles.Politics2} className={classNames(imageStyles.full_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",1])}>
                             <img alt="Poem" className={classNames(imageStyles.hover_effect)} src={PunjabkeHindu}/>
                           </div>
                         </div>
                         <div ref={props.addParallaxAndFadeRef(5)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_40, layoutStyles.align_center, layoutStyles.justify_center)}>
-                          <div id={imageStyles.Politics3} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",2])}>
+                          <div id={imageStyles.Politics3} className={classNames(imageStyles.full_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",2])}>
                             <img alt="Milap Article" className={classNames(imageStyles.hover_effect)} src={HinduPeeche}/>
                           </div>
                         </div>
                         <div ref={props.addParallaxAndFadeRef(-4)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33, layoutStyles.align_center, layoutStyles.justify_center)}>
-                          <div id={imageStyles.Politics4} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",3])}>
+                          <div id={imageStyles.Politics4} className={classNames(imageStyles.full_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",3])}>
                             <img alt="Poem" className={classNames(imageStyles.hover_effect)} src={PunjabKaMahajan}/>
                           </div>
                         </div>
@@ -1187,7 +1185,7 @@ const slideMap = {
                           </div>
                         </div>
                         <div ref={props.addParallaxAndFadeRef(5)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33, layoutStyles.align_center)}>
-                          <div id={imageStyles.LLR3} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",2])}>
+                          <div id={imageStyles.LLR3} className={classNames(imageStyles.full_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",2])}>
                             <img alt="Poem" className={classNames(imageStyles.hover_effect)} src={LLR_Poem1}/>
                           </div>
                         </div>
@@ -1213,7 +1211,7 @@ const slideMap = {
                           </div>
                         </div>
                         <div ref={props.addParallaxAndFadeRef(-4)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_25, layoutStyles.align_center, layoutStyles.justify_center)}>
-                          <div id={imageStyles.LLR8} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",7])}>
+                          <div id={imageStyles.LLR8} className={classNames(imageStyles.full_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",7])}>
                             <img alt="Congregation in the memory of Lala Lajpat Rai" className={classNames(imageStyles.hover_effect)} src={LLR_Jalsa}/>
                           </div>
                         </div>
@@ -1355,7 +1353,7 @@ const slideMap = {
                          </div>
                         </Layout>
                        <div className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33)}>
-                          <div ref={props.addParallaxAndFadeRef(6)} id={imageStyles.Lajpat_AS1} className={classNames(imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",1])} >
+                          <div ref={props.addParallaxAndFadeRef(6)} id={imageStyles.Lajpat_AS2} className={classNames(imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",1])} >
                             <img src={BMCover} alt="A front page of Daily Bande Matram" className={classNames(imageStyles.hover_effect)}/>
                           </div>
                        </div>
@@ -1436,32 +1434,32 @@ const slideMap = {
                       scrollContainerRef={props.scrollContainerRef}
                       xPos={props.xPos}>
                         <div ref={props.addParallaxAndFadeRef(5)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33, layoutStyles.justify_center)}>
-                          <div id={imageStyles.NC1} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",0])}>
+                          <div id={imageStyles.NC1} className={classNames(imageStyles.special_ed_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",0])}>
                             <img alt="Daily Pratap, Krishna number" className={classNames(imageStyles.hover_effect)} src={PratapCover}/>
                           </div>
                         </div>
                         <div ref={props.addParallaxAndFadeRef(-4)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33, layoutStyles.justify_center)}>
-                          <div id={imageStyles.NC2} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",1])}>
+                          <div id={imageStyles.NC2} className={classNames(imageStyles.special_ed_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",1])}>
                             <img alt="Daily Milap, Basant Number" className={classNames(imageStyles.hover_effect)} src={MilapBasant}/>
                           </div>
                         </div>
                         <div ref={props.addParallaxAndFadeRef(5)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33, layoutStyles.align_center)}>
-                          <div id={imageStyles.NC3} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",2])}>
+                          <div id={imageStyles.NC3} className={classNames(imageStyles.special_ed_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",2])}>
                             <img alt="Daily Milap, Holi edition" className={classNames(imageStyles.hover_effect)} src={MilapHoli}/>
                           </div>
                         </div>
                         <div ref={props.addParallaxAndFadeRef(-5)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33, layoutStyles.align_center, layoutStyles.justify_center)}>
-                          <div id={imageStyles.NC4} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",3])}>
+                          <div id={imageStyles.NC4} className={classNames(imageStyles.special_ed_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",3])}>
                             <img alt="Daily Milap, Pahar (Mountain) edition" className={classNames(imageStyles.hover_effect)} src={PaharNumber}/>
                           </div>
                         </div>
                         <div ref={props.addParallaxAndFadeRef(4)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33, layoutStyles.align_center, layoutStyles.justify_center)}>
-                          <div id={imageStyles.NC5} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",4])}>
+                          <div id={imageStyles.NC5} className={classNames(imageStyles.special_ed_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",4])}>
                             <img alt="Daily Pratap, Martyrs edition" className={classNames(imageStyles.hover_effect)} src={LLR_Pratap}/>
                           </div>
                         </div>
                         <div ref={props.addParallaxAndFadeRef(-4)} className={classNames(slideStyles.galleryItem_container, slideStyles.galleryItem_33, layoutStyles.align_center, layoutStyles.justify_center)}>
-                          <div id={imageStyles.NC6} className={classNames(imageStyles.ilm_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",5])}>
+                          <div id={imageStyles.NC6} className={classNames(imageStyles.special_ed_gallery, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",5])}>
                             <img alt="Daily Bande Matram, Lala Lajpat Rai edition" className={classNames(imageStyles.hover_effect)} src={LLR_BM}/>
                           </div>
                         </div>

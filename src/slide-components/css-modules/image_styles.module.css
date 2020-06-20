@@ -112,8 +112,8 @@
   width: 100%;
 }
 
-#Lajpat_AS1, #Lajpat_AS2 {
-  width: 70%
+#Lajpat_AS1 {
+  width: 80%
 }
 
 #DAV1 {
@@ -210,6 +210,14 @@
   width: 100%;
 }
 
+#LLR3 {
+  width: 80%;
+}
+
+#LLR8 {
+  width: 90%;
+}
+
 #LLR9 {
   width: 70%;
 }
@@ -270,8 +278,16 @@
   width: 65%;
 }
 
+#Politics2, #Politics3 {
+  width: 80%;
+}
 
-.ilm_gallery {
+#AS2 {
+  width: 90%;
+}
+
+
+.ilm_gallery, .special_ed_gallery {
   width: 275px;
   margin-right: 55px;
 }
@@ -364,12 +380,48 @@
 
 @media only screen and (min-width: 1024px) and (max-height: 675px) {
   .ilm_gallery {
-    width: 220px !important;
+    width: 200px !important;
     margin-right: 55px;
   }
-
+  .special_ed_gallery {
+    width: 250px !important;
+    margin-right: 35px;
+  }
+  #Lajpat_AS1 {
+    width: 75%
+  }
+  #Politics2, #Politics3 {
+    width: 90%;
+    margin-left: 5%;
+  }
+  #FreedomArt {
+    width: 58%;
+  }
+  #LLR3, #LLR8 {
+    width: 90%;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 600px) {
-  
+  .ilm_gallery {
+    width: 190px !important;
+    margin-right: 55px;
+  }
+  .special_ed_gallery {
+    width: 240px !important;
+    margin-right: 35px;
+  }
+  #Lajpat_AS1 {
+    width: 73%
+  }
+  #Politics2, #Politics3 {
+    width: 88%;
+    margin-left: 6%;
+  }
+  #FreedomArt {
+    width: 56%;
+  }
+  #LLR3, #LLR8 {
+    width: 88%;
+  }
 }
