@@ -64,6 +64,13 @@
     bottom: -50px;
   }
 
+  #absoluteLajpat {
+    position: absolute;
+    width: 26%;
+    left: 38%;
+    bottom: -10px;
+  }
+
 }
 
 @media only screen and (max-width: 800px) {
@@ -81,7 +88,27 @@
     left: 25%;
     bottom: -50px;
   }
+  #absoluteLajpat {
+    position: absolute;
+    width: 32%;
+    left: 35.5%;
+    bottom: -10px;
+  }
 
+  #PratapCover {
+    position: absolute;
+    width: 33%;
+    left: 47%;
+    bottom: -25px;
+    z-index: 2
+  }
+
+  #MilapBasantCover {
+    position: absolute;
+    width: 32%;
+    left: 15%;
+    bottom: -90px;
+  }
 }
 
 @media only screen and (max-width: 585px) {
@@ -100,7 +127,33 @@
     bottom: -50px;
   }
 
+  #absoluteLajpat {
+    position: absolute;
+    width: 46%;
+    left: 30.5%;
+    bottom: -10px;
+  }
 
+  #PratapCover {
+    position: absolute;
+    width: 39%;
+    left: 50%;
+    -webkit-transform: rotate(5deg);
+        -ms-transform: rotate(5deg);
+            transform: rotate(5deg);
+    bottom: -25px;
+    z-index: 2
+  }
+
+  #MilapBasantCover {
+    position: absolute;
+    width: 38%;
+    left: 12%;
+    -webkit-transform: rotate(-4deg);
+        -ms-transform: rotate(-4deg);
+            transform: rotate(-4deg);
+    bottom: -90px;
+  }
 }
 
 @media only screen and (max-width: 440px) {
@@ -117,6 +170,33 @@
     width: 50%;
     left: 8%;
     bottom: -50px;
+  }
+  #absoluteLajpat {
+    position: absolute;
+    width: 60%;
+    left: 23%;
+    bottom: -10px;
+  }
+
+  #PratapCover {
+    position: absolute;
+    width: 43%;
+    left: 49%;
+    -webkit-transform: rotate(4deg);
+        -ms-transform: rotate(4deg);
+            transform: rotate(4deg);
+    bottom: -25px;
+    z-index: 2
+  }
+
+  #MilapBasantCover {
+    position: absolute;
+    width: 42%;
+    left: 7%;
+    -webkit-transform: rotate(-3deg);
+        -ms-transform: rotate(-3deg);
+            transform: rotate(-3deg);
+    bottom: -90px;
   }
 }
 

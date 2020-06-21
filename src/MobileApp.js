@@ -8,12 +8,16 @@ import {
 import './App.css';
 import MobileContainer from './slide-components/MobileContainer';
 import {mobileSlideMap, mobileImageArr} from './slide-components/SlideMap';
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-165837184-7');
 
 class MobileApp extends React.Component {
 
   componentDidMount() {
     mobileImageArr.forEach((image) => {
         new Image().src = image
+        ReactGA.set({ page: window.location.pathname }); // Update the user's current page
+        ReactGA.pageview(window.location.pathname); // Record a pageview for the given page
     });
   }
 
@@ -28,7 +32,7 @@ class MobileApp extends React.Component {
                   return (
                     <Route exact path={`/${d}`}>
                         <MobileContainer
-                        projectName="Outraged"
+                        projectName="Imagining Lahore as a Hindu City"
                         path={d}
                         />
                     </Route>

@@ -336,6 +336,83 @@
     width: 60%;
     margin-bottom: 20px;
   }
+
+  #BadnaseebHindu {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  #PunjabkeHindu, #HinduPeeche, #PunjabKaMahajan {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  #Cartoon {
+    width: 38%;
+    margin-bottom: 20px;
+  }
+
+  #MilapFreedomArt {
+    width: 28%;
+    margin-bottom: 20px;
+  }
+  #Martyrs {
+    width: 32%;
+    margin-bottom: 20px;
+  }
+
+  #LLRai {
+    width: 38%;
+    margin-bottom: 20px;
+  }
+
+  #LLRai_Statue {
+    width: 32%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_BM, #LLR_Poem2, #LLR_Pict, #LLR_Congress, #LLR_Writings {
+    width: 33%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_Pratap, #LLR_Poem3 {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_Poem1, #LLR_Jalsa {
+    width: 64%;
+    margin-bottom: 20px;
+  }
+
+  #MilapCover {
+    width: 38%;
+    margin-bottom: 20px;
+  }
+
+  #BMCover {
+    width: 68%;
+    margin-bottom: 20px;
+  }
+
+  #PratapCover, #MilapBasant, #MilapHoli, #PaharNumber, #LLR_Pratap, #LLR_BM {
+    width: 31%;
+    margin-bottom: 20px;
+  }
+
+  #Poem1 {
+    width: 42%;
+    margin-bottom: 20px;
+  }
+  #Poem2 {
+    width: 52%;
+    margin-bottom: 20px;
+  }
+  #Poem3 {
+    width: 20%;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -425,6 +502,83 @@
     width: 70%;
     margin-bottom: 20px;
   }
+
+  #BadnaseebHindu {
+    width: 58%;
+    margin-bottom: 20px;
+  }
+
+  #PunjabkeHindu, #HinduPeeche, #PunjabKaMahajan {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  #Cartoon {
+    width: 43%;
+    margin-bottom: 20px;
+  }
+
+  #MilapFreedomArt {
+    width: 33%;
+    margin-bottom: 20px;
+  }
+  #Martyrs {
+    width: 38%;
+    margin-bottom: 20px;
+  }
+
+  #LLRai {
+    width: 43%;
+    margin-bottom: 20px;
+  }
+
+  #LLRai_Statue {
+    width: 39%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_BM, #LLR_Poem2, #LLR_Pict, #LLR_Congress, #LLR_Writings {
+    width: 38%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_Pratap, #LLR_Poem3 {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_Poem1, #LLR_Jalsa {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  #MilapCover {
+    width: 44%;
+    margin-bottom: 20px;
+  }
+
+  #BMCover {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+
+  #PratapCover, #MilapBasant, #MilapHoli, #PaharNumber, #LLR_Pratap, #LLR_BM {
+    width: 38.5%;
+    margin-bottom: 20px;
+  }
+
+  #Poem1 {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  #Poem2 {
+    width: 65%;
+    margin-bottom: 20px;
+  }
+  #Poem3 {
+    width: 24%;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 620px) {
@@ -509,6 +663,82 @@
     margin-bottom: 20px;
   }
 
+  #BadnaseebHindu {
+    width: 68%;
+    margin-bottom: 20px;
+  }
+
+  #PunjabkeHindu, #HinduPeeche, #PunjabKaMahajan {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  #Cartoon {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  #MilapFreedomArt {
+    width: 43%;
+    margin-bottom: 20px;
+  }
+  #Martyrs {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  #LLRai {
+    width: 58%;
+    margin-bottom: 20px;
+  }
+
+  #LLRai_Statue {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_BM, #LLR_Poem2, #LLR_Pict, #LLR_Congress, #LLR_Writings {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_Pratap, #LLR_Poem3 {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_Poem1, #LLR_Jalsa {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  #MilapCover {
+    width: 58%;
+    margin-bottom: 20px;
+  }
+
+  #BMCover {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  #PratapCover, #MilapBasant, #MilapHoli, #PaharNumber, #LLR_Pratap, #LLR_BM {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  #Poem1 {
+    width: 65%;
+    margin-bottom: 20px;
+  }
+  #Poem2 {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  #Poem3 {
+    width: 34%;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -583,6 +813,83 @@
 
   #SDharam {
     width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #BadnaseebHindu {
+    width: 88%;
+    margin-bottom: 20px;
+  }
+
+  #PunjabkeHindu, #HinduPeeche, #PunjabKaMahajan {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #Cartoon {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  #MilapFreedomArt {
+    width: 56%;
+    margin-bottom: 20px;
+  }
+  #Martyrs {
+    width: 65%;
+    margin-bottom: 20px;
+  }
+
+  #LLRai {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+
+  #LLRai_Statue {
+    width: 64%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_BM, #LLR_Poem2, #LLR_Pict, #LLR_Congress, #LLR_Writings {
+    width: 62%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_Pratap, #LLR_Poem3 {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  #LLR_Poem1, #LLR_Jalsa {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #MilapCover {
+    width: 70%;
+    margin-bottom: 20px;
+  }
+
+  #BMCover {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #PratapCover, #MilapBasant, #MilapHoli, #PaharNumber, #LLR_Pratap, #LLR_BM {
+    width: 62%;
+    margin-bottom: 20px;
+  }
+
+  #Poem1 {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  #Poem2 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  #Poem3 {
+    width: 42%;
     margin-bottom: 20px;
   }
 }

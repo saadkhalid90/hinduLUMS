@@ -2,6 +2,7 @@ import React, { useState, createRef, useRef, useLayoutEffect } from 'react';
 import gsap, {TimelineMax, Power3} from 'gsap';
 import {CustomEase} from 'gsap/CustomEase';
 import styles from './css-modules/slide.module.css';
+import ReactGA from 'react-ga';
 
 gsap.registerPlugin(CustomEase);
 const easing = CustomEase.create('custom', 'M0,0,C0.5,0,0.2,1,1,1');
@@ -35,6 +36,8 @@ function firstLoadAnimation(containerRef, fadeRefs, dir,cb){
 }
 
 function fadeInAnimation(containerRef, fadeRefs, dir,cb){
+    ReactGA.set({ page: window.location.pathname }); // Update the user's current page
+    ReactGA.pageview(window.location.pathname); // Record a pageview for the given page
     containerRef.current.style.zIndex = 2;
     new TimelineMax({
         onComplete : cb

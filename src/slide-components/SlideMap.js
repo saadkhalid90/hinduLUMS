@@ -2569,8 +2569,8 @@ const mobileSlideMap = {
                   chapter_number="3"
                   chapter_title="Newspapers"
                   images={[
-                    {image: PratapCover, id: chTStyles.PratapCover, shift : 8},
-                    {image: MilapBasantCover, id: chTStyles.MilapBasantCover, shift : -7}
+                    {image: PratapCover, id: chTStyles.PratapCover},
+                    {image: MilapBasantCover, id: chTStyles.MilapBasantCover}
                   ]}
                   gradient='linear-gradient(to bottom, rgba(130, 98, 204,0) 0%,rgba(130, 98, 204,0.48) 48%,rgba(130, 98, 204,0.97) 97%,rgba(130, 98, 204, 1) 100%)'
                 />
