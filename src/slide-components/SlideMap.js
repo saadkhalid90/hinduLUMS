@@ -802,7 +802,7 @@ const slideMap = {
                             render : ()=> <img alt="Dr. B.R.Ambedkar" src={Ambedkar} style={window.innerHeight > 675 ? {width: '65%', marginLeft: '17.5%'} : {width: '55%', marginLeft: '22.5%'}}></img>,
                           },
                           {
-                            description : "An illustration of Gokul Chand Narang who hosted the Jat-Pat Todak Mandal Conference at his house (published in Daily Milap)",
+                            description : <span>An illustration of Gokul Chand Narang who hosted the Jat-Pat Todak Mandal Conference at his house (published in Daily <i>Milap</i>)</span>,
                             title : "Sample Title",
                             source : "Centre for South Asian Studies, University of Cambridge",
                             render : ()=> <img alt="Gokul Chand Narang" src={HinduPeeche} style={window.innerHeight > 675 ? {width: '90%', marginLeft: '5%'} : {width: '80%', marginLeft: '10%'}}></img>,
@@ -2188,7 +2188,7 @@ const mobileSlideMap = {
                       render : ()=> <img alt="Dr. B.R.Ambedkar" src={Ambedkar} id={overlay_styles.Ambedkar}></img>,
                     },
                     {
-                      description : "An illustration of Gokul Chand Narang who hosted the Jat-Pat Todak Mandal Conference at his house (published in Daily Milap)",
+                      description : <span>An illustration of Gokul Chand Narang who hosted the Jat-Pat Todak Mandal Conference at his house (published in Daily <i>Milap</i>)</span>,
                       title : "Sample Title",
                       source : "Centre for South Asian Studies, University of Cambridge",
                       render : ()=> <img alt="Gokul Chand Narang" src={HinduPeeche} id={overlay_styles.HinduPeeche}></img>,
@@ -2584,7 +2584,7 @@ const mobileSlideMap = {
                 />
 
                 <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.padded_bottom)}>
-                  <p className={mobileStyles.mobilePara}>Unlike UP and Bihar where the demand to replace Urdu with Devanagari script was popular, there was no serious threat to the status of Urdu in Punjab as the medium of instruction in public schools and an effective mode of social, political and religious commentary. Therefore, even those newspapers that purported to present the case of discrimination faced by Hindus and argued for nationalist politics, chose Urdu as the medium of communication. Milap, Pratap and Bande Matram were major Urdu dailies published from Lahore and widely read by the city’s Hindu community. Milap continued to be published in post-1947 Eastern Punjab as well where a large number of Hindu and Sikhs subscribed to it as they were literate in Urdu only. One such person is Manmohan Singh - the former prime minister of India - who received his early education in British Punjab, and is therefore a fluent reader of Urdu. His ‘Hindi speeches’ were, therefore, written in Urdu script.</p>
+                  <p className={mobileStyles.mobilePara}>Unlike UP and Bihar where the demand to replace Urdu with Devanagari script was popular, there was no serious threat to the status of Urdu in Punjab as the medium of instruction in public schools and an effective mode of social, political and religious commentary. Therefore, even those newspapers that purported to present the case of discrimination faced by Hindus and argued for nationalist politics, chose Urdu as the medium of communication. <i>Milap</i>, <i>Pratap</i> and <i>Bande Matram</i> were major Urdu dailies published from Lahore and widely read by the city’s Hindu community. <i>Milap</i> continued to be published in post-1947 Eastern Punjab as well where a large number of Hindu and Sikhs subscribed to it as they were literate in Urdu only. One such person is Manmohan Singh - the former prime minister of India - who received his early education in British Punjab, and is therefore a fluent reader of Urdu. His ‘Hindi speeches’ were, therefore, written in Urdu script.</p>
                 </div>
 
                 <div className={classNames(mobileStyles.mobile_layout, mobileStyles.flexed_container, mobileStyles.padded_bottom)}>
@@ -2655,7 +2655,7 @@ const mobileSlideMap = {
                   note="Pictures in the chapter can be clicked for expanded view"
                 />
 
-                <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_bottom)}>
+                <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_bottom, mobileStyles.increased_padded_top)}>
                   <p className={mobileStyles.mobilePara}>Despite the rising crescendo of communalism and politicizing of Hindu identity in Lahore, Urdu remained the idiomatic expression of literature, politics and socio-religious thought. Various specimens of Urdu poetry published in Hindu newspapers show how poets drew upon Perso-Islamic and Indic literary traditions, and a range of local and Persianized metaphors, to write poetry in remembrance of Hindu martyrs, celebration of Hindu festivals or simply in admiration of natural landscapes.</p>
                 </div>
 
@@ -2805,7 +2805,7 @@ const mobileSlideMap = {
 };
 
 
-const mobileImageArr = [];
+const mobileImageArr = imageArr;
 export {
     slideMap,
     slideOrder,
