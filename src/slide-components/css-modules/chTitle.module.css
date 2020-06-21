@@ -48,20 +48,76 @@
 
 }
 
-@media only screen and (max-width: 1045px) {
+@media only screen and (max-width: 1024px) {
+  #Agnihotri {
+    position: absolute;
+    width: 34%;
+    left: 42%;
+    bottom: -30px;
+    z-index: 2;
+  }
+
+  #HansRaj {
+    position: absolute;
+    width: 26%;
+    left: 27%;
+    bottom: -50px;
+  }
 
 }
 
 @media only screen and (max-width: 800px) {
+  #Agnihotri {
+    position: absolute;
+    width: 38%;
+    left: 42%;
+    bottom: -30px;
+    z-index: 2;
+  }
+
+  #HansRaj {
+    position: absolute;
+    width: 30%;
+    left: 25%;
+    bottom: -50px;
+  }
 
 }
 
 @media only screen and (max-width: 585px) {
+  #Agnihotri {
+    position: absolute;
+    width: 50%;
+    left: 43%;
+    bottom: -30px;
+    z-index: 2;
+  }
+
+  #HansRaj {
+    position: absolute;
+    width: 42%;
+    left: 15%;
+    bottom: -50px;
+  }
+
 
 }
 
 @media only screen and (max-width: 440px) {
+  #Agnihotri {
+    position: absolute;
+    width: 58%;
+    left: 40%;
+    bottom: -30px;
+    z-index: 2;
+  }
 
+  #HansRaj {
+    position: absolute;
+    width: 50%;
+    left: 8%;
+    bottom: -50px;
+  }
 }
 
 @media only screen and (max-width: 425px) {

@@ -235,18 +235,356 @@
     height: 28px;
     right: 20px;
   }
+
+  .overLaySlideshow_imageContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   /* Overlay Images From this line onwards */
 
+  #SwamiDyan {
+    width: 35%;
+    margin-bottom: 20px;
+  }
 
+  #Lajpat_AS1 {
+    width: 29%;
+    margin-bottom: 30px;
+  }
+  #Lajpat_AS1 {
+    width: 30%;
+    margin-bottom: 30px;
+  }
+
+  #DAVPoem {
+    width: 35%;
+    margin-bottom: 20px;
+  }
+
+  #HansRajBG, #Gurudatta {
+    width: 34%;
+    margin-bottom: 20px;
+  }
+
+  #IC {
+    width: 65%;
+    margin-bottom: 20px;
+  }
+
+  #DAVStaff, #DAVPindi {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  #DAVMultan {
+    width: 60%;
+    margin-bottom: 10px;
+  }
+  #DAVLahore {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+
+  #ASPrint1, #ASPrint2, #ASPrint5 {
+    width: 30%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint3, #ASPrint6 {
+    width: 28%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint4 {
+    width: 34%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint7 {
+    width: 22%;
+    margin-bottom: 25px;
+  }
+  #ASPrint8 {
+    width: 70%;
+    margin-bottom: 25px;
+  }
+
+  #MOBrahmo {
+    width: 28%;
+    margin-bottom: 20px;
+  }
+  #AgnihotriJP, #RuchiRam {
+    width: 32%;
+    margin-bottom: 20px;
+  }
+
+  #AOCaste, #Ambedkar {
+    width: 32%;
+    margin-bottom: 20px;
+  }
+  #HinduPeeche {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+
+  #BrahmoSamajMandir, #DevSamajMandir {
+    width: 30%;
+    margin-bottom: 20px;
+  }
+
+  #SDharam {
+    width: 60%;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 850px) {
+  #SwamiDyan {
+    width: 43%;
+    margin-bottom: 20px;
+  }
+  #Lajpat_AS1 {
+    width: 50%;
+    margin-bottom: 30px;
+  }
+
+  #DAVPoem {
+    width: 42%;
+    margin-bottom: 20px;
+  }
+
+  #HansRajBG, #Gurudatta {
+    width: 41%;
+    margin-bottom: 20px;
+  }
+
+  #IC {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  #DAVStaff, #DAVPindi {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  #DAVMultan {
+    width: 70%;
+    margin-bottom: 10px;
+  }
+  #DAVLahore {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  #ASPrint1, #ASPrint2, #ASPrint5 {
+    width: 34%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint3, #ASPrint6 {
+    width: 32%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint4 {
+    width: 38%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint7 {
+    width: 26%;
+    margin-bottom: 25px;
+  }
+  #ASPrint8 {
+    width: 74%;
+    margin-bottom: 25px;
+  }
+
+  #MOBrahmo {
+    width: 35%;
+    margin-bottom: 20px;
+  }
+  #AgnihotriJP, #RuchiRam {
+    width: 38%;
+    margin-bottom: 20px;
+  }
+
+  #AOCaste, #Ambedkar {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  #HinduPeeche {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+
+  #BrahmoSamajMandir, #DevSamajMandir {
+    width: 38%;
+    margin-bottom: 20px;
+  }
+
+  #SDharam {
+    width: 70%;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (max-width: 620px) {
+  #SwamiDyan {
+    width: 58%;
+    margin-bottom: 20px;
+  }
+  #Lajpat_AS1 {
+    width: 60%;
+    margin-bottom: 30px;
+  }
+  #DAVPoem {
+    width: 53%;
+    margin-bottom: 20px;
+  }
+
+  #HansRajBG, #Gurudatta {
+    width: 52%;
+    margin-bottom: 20px;
+  }
+  #IC {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  #DAVStaff, #DAVPindi {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+  #DAVLahore, #DAVMultan {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  #ASPrint1, #ASPrint2, #ASPrint5 {
+    width: 46%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint3, #ASPrint6 {
+    width: 44%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint4 {
+    width: 50%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint7 {
+    width: 38%;
+    margin-bottom: 25px;
+  }
+  #ASPrint8 {
+    width: 86%;
+    margin-bottom: 25px;
+  }
+
+  #MOBrahmo {
+    width: 46%;
+    margin-bottom: 20px;
+  }
+  #AgnihotriJP, #RuchiRam {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  #AOCaste, #Ambedkar {
+    width: 55%;
+    margin-bottom: 20px;
+  }
+  #HinduPeeche {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
+  #BrahmoSamajMandir, #DevSamajMandir {
+    width: 50%;
+    margin-bottom: 20px;
+  }
+
+  #SDharam {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+
 }
 
 @media only screen and (max-width: 500px) {
+  #SwamiDyan {
+    width: 72%;
+    margin-bottom: 20px;
+  }
+  #DAVPoem {
+    width: 68%;
+    margin-bottom: 20px;
+  }
+
+  #HansRajBG, #Gurudatta {
+    width: 67%;
+    margin-bottom: 20px;
+  }
+  #IC {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #DAVStaff, #DAVLahore, #DAVMultan, #DAVPindi {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  #ASPrint1, #ASPrint2, #ASPrint5 {
+    width: 60%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint3, #ASPrint6 {
+    width: 54%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint4 {
+    width: 66%;
+    margin-bottom: 25px;
+  }
+
+  #ASPrint7 {
+    width: 46%;
+    margin-bottom: 25px;
+  }
+  #ASPrint8 {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+
+  #MOBrahmo {
+    width: 56%;
+    margin-bottom: 20px;
+  }
+  #AgnihotriJP, #RuchiRam {
+    width: 60%;
+    margin-bottom: 20px;
+  }
+  #AOCaste, #Ambedkar {
+    width: 65%;
+    margin-bottom: 20px;
+  }
+  #HinduPeeche {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  #BrahmoSamajMandir, #DevSamajMandir {
+    width: 64%;
+    margin-bottom: 20px;
+  }
+
+  #SDharam {
+    width: 100%;
+    margin-bottom: 20px;
+  }
 }
 
 @media only screen and (min-width: 1024px) and (max-height: 675px) {
