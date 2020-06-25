@@ -207,7 +207,7 @@ const slideMap = {
                   <div className={slideStyles.slideContent}>
                     <ProjectTitle
                       title="Imagining Lahore as a Hindu City"
-                      description=<span>Imagining everyday life of Hindus in pre-partition Lahore through the lens of their politics, religious movements and newspapers</span>
+                      description=<span>The everyday life of Hindus in pre-partition Lahore, their politics, religious movements and literature</span>
                     />
                   </div>
                 </div>
@@ -273,8 +273,8 @@ const slideMap = {
                        xPos={props.xPos}>
                        <Layout fixed_width layoutClassName="layout_flexed">
                          <div ref={props.addParallaxAndFadeRef(8)} className={classNames(layoutStyles.layout_container, layoutStyles.container_60, layoutStyles.align_center, layoutStyles.justify_center)}>
-                            <p className={slideStyles.slidePara}>In the late 19th century, the city of Lahore was at the center of a battle for Hindu identity. The Arya Samaj had been established in Bombay in 1875 by Swami Dayananda, but it was in Lahore that the ideas inspired by him took the shape of a national movement. Young Punjabi Hindus began abandoning Brahmo ideals, preferring Swami Dayananda’s concepts of Vedic infallibility and shunning traditional Hindu practices, such as idol worship. </p>
-                            <p className={slideStyles.slidePara}>With a mandir on every corner and a rising awakening of a vast population of Punjabi Hindus, Lahore was the perfect city for the Arya Samaj’s cultural and theological revolution. But the Samaj was not working in a vacuum, and Lahore was a bastion of traditional Hinduism.</p>
+                            <p className={slideStyles.slidePara}>In the late 19th century, the city of Lahore was at the center of a battle for Hindu identity. Swami Dayananda had established the Arya Samaj in Bombay in 1875 , but it was in Lahore that his ideas inspired a large scale movement. Under the influence of Dayananda’s teachings, young Punjabi Hindus abandoned Brahmo ideals and several traditional Hindu practices.</p>
+                            <p className={slideStyles.slidePara}>With a mandir on every corner and a rising awakening of a vast population of Punjabi Hindus, Lahore was the perfect city for Arya Samaj’s cultural and theological revolution. But the Samaj was not working in a religious or political vacuum. Lahore was a bastion of traditional Hinduism and there was a great deal of resistance to Arya Samaj’s reformatory zeal.</p>
                          </div>
                          <div className={classNames(layoutStyles.layout_container, layoutStyles.container_40, layoutStyles.align_center, layoutStyles.justify_center)}>
                             <div ref={props.addParallaxAndFadeRef(10)} id={imageStyles.SwamiDyan} className={classNames(imageStyles.rotate_0_dec_75, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",0])} >
@@ -331,7 +331,7 @@ const slideMap = {
                   <div className={slideStyles.slideContent}>
                     <Layout layoutClassName="layout_flexed">
                       <div ref={props.addFadeRef} className={layoutStyles.layout_100}>
-                        <SlideHeading inverted noPadding title="Punjabi Hindus battle for Identity" desc="By the 1890s, the Punjab had witnessed a steep rise of the mercantile Hindu community and a professional class of doctors, engineers and educationists. The impact of colonial modernity had transformed Lahore into a major centre for education, trade and cultural activities. These changes were impacting the worldview of the young Hindu students and professionals, and made them question some of the traditionally held religious views. It is no wonder then that a number of religious reform movements emerged during the late nineteenth century, with Lahore as the focus of these polemical debates and exchange of ideas."/>
+                        <SlideHeading inverted noPadding title="Punjabi Hindus battle for Identity" desc="By the 1890s, the Punjab had witnessed a steep rise in the economic fortunes of the mercantile Hindu community and a professional class of doctors, engineers and educationists. The impact of colonial modernity had transformed Lahore into a major centre for education, trade and cultural activities. These changes were impacting the worldview of the young Hindu students and professionals, and made them question some of the traditionally held religious views. It is no wonder then that a number of religious reform movements emerged during the late nineteenth century with Lahore as the focus of these polemical debates and exchange of ideas."/>
                       </div>
                     </Layout>
                   </div>
@@ -363,7 +363,7 @@ const slideMap = {
                        xPos={props.xPos}>
                        <Layout fixed_width layoutClassName="layout_flexed">
                          <div ref={props.addParallaxAndFadeRef(8)} className={classNames(layoutStyles.layout_container, layoutStyles.container_60, layoutStyles.align_center, layoutStyles.justify_center)}>
-                            <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>The Arya Samaj initially lacked any central organization and each Samaj was independent. Dayananda’s death led to disintegration, but also to a burst of energy, as numerous groups sought to honour their departed teacher. They were nearly unanimous in the desire to found a school that would impart his Vedic form of Hinduism, and thus be safe from Christian influence. The Lahore Samaj drafted plans for this institution and on 6 December 1883 set up a subcommittee to raise funds. Initially they were quite successful, but by 1884 enthusiasm waned. In 1885 Lala Hans Raj promised to serve as the principal of the school without pay which rekindled the enthusiasm for founding the college. He, along with Gurudatta Vidhyarthi, finally established the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in June 1886.</p>
+                            <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>The Arya Samaj initially lacked any central organization and each Samaj was independent. Dayananda’s death led to disintegration, but also to a burst of energy, as numerous groups sought to honour their departed teacher. They were nearly unanimous in the desire to establish a school that would impart his Vedic form of Hinduism, and thus be safe from Christian influence. The Lahore Samaj drafted plans for this institution and on 6 December 1883 set up a subcommittee to raise funds. Initially they were quite successful, but by 1884 enthusiasm for the project had waned. In 1885 Lala Hans Raj promised to serve as the principal of the school without pay, which rekindled the enthusiasm for founding the college. He, along with Gurudatta Vidhyarthi, finally established the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in June 1886.</p>
                          </div>
                          <div className={classNames(layoutStyles.layout_container, layoutStyles.container_40, layoutStyles.align_center, layoutStyles.justify_center)}>
                             <div ref={props.addParallaxAndFadeRef(7)} id={imageStyles.DAVPoem} className={classNames(imageStyles.rotate_0_dec_75, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",0])} >
@@ -409,13 +409,13 @@ const slideMap = {
                             render : ()=> <img alt="Islamia College, Civil Lines Lahore" src={IC} style={window.innerHeight > 675 ? {width: '80%', marginLeft: '10%'} : {width: '70%', marginLeft: '15%'}}></img>,
                           },
                           {
-                            description : <span>Also known as Mahatama Hansraj, he was amongst the prominent leaders of the Arya Samaj in Lahore. He joined the Arya Samaj while a student at Lahore’s Government College. He founded, with Gurudatta Vidhyarthi, the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in 1886. Hansraj served as the principal of the D.A.V. College for 25 years, and served as the president of the provincial Arya Pradeshik Pratinidhi Sabha. He died in Lahore on 14 November 1938.</span>,
+                            description : <span>Also known as Mahatama Hansraj, Lala Hans Raj was amongst the prominent leaders of the Arya Samaj in Lahore. He joined the Arya Samaj while a student at Lahore’s Government College. He founded, along with Gurudatta Vidhyarthi, the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in 1886. Hansraj served as the principal of the D.A.V. College for 25 years, and served as the president of the provincial Arya Pradeshik Pratinidhi Sabha. He died in Lahore on 14 November 1938.</span>,
                             title : "Sample Title",
                             source : "Research Society of Pakistan, University of Punjab",
                             render : ()=> <img alt="Mahatma Hans Raj" src={HansRajBG} style={window.innerHeight > 675 ? {width: '56%', marginLeft: '22%'} : {width: '46%', marginLeft: '27%'}}></img>,
                           },
                           {
-                            description : <span>He was a prominent leader of the Arya Samaj in Multan, and later moved to Lahore after Dayananda’s death. He was born to a wealthy Arora family in Multan. He received his BA and MA degrees at the Government College Lahore. When the news was received of Dayananda’s illness at Ajmer, the Arya Samaj at Lahore chose him, only nineteen years old, and Lala Kivan Das to go to Ajmer to tend to Swami Dayanand. After returning to Lahore, he actively got involved with the Arya Samaj Chapter in Lahore. Along with others - such as Pandit Lekh Ram and Lala Munshi Ram - Datta wanted the DAV curriculum to focus on Vedic ideology and the study of Sanskrit. Such an approach was contrary to the moderate faction of Arya Samaj who wished to provide English education to Hindus in an environment where their religious outlook was preserved while they received higher education relevant to the needs of the modern world. By 1893, the Arya Samaj was formally divided. The conservatives (led by Pandit Guru Datta) gained control over most of the local Arya Samaj chapters and the Arya Pratinidhi Sabha, Punjab. The moderates kept their hold on to the Managing Committee and the DAV school.</span>,
+                            description : <span>Pandit Vidyarth was a prominent leader of the Arya Samaj in Multan, and later moved to Lahore after Dayananda’s death. He was born to a wealthy Arora family in Multan. He received his BA and MA degrees at the Government College Lahore. When the news was received of Dayananda’s illness at Ajmer, the Arya Samaj at Lahore chose him - only nineteen years old at that time - and Lala Kivan Das to go to Ajmer to tend to Swami Dayanand. After returning to Lahore, he actively got involved with the Arya Samaj Chapter in Lahore. Along with others - such as Pandit Lekh Ram and Lala Munshi Ram - Datta wanted the DAV curriculum to focus on Vedic ideology and the study of Sanskrit. Such an approach was contrary to the moderate faction of the Arya Samaj who wished to provide English education to Hindus in an environment where their religious outlook was preserved while they received higher education relevant to the needs of the modern world. By 1893, the Arya Samaj was formally divided. The conservatives (led by Pandit Guru Datta) gained control over most of the local Arya Samaj chapters and the Arya Pratinidhi Sabha, Punjab. The moderates kept their hold on to the Managing Committee and the DAV school.</span>,
                             title : "Sample Title",
                             source : "Wikipedia",
                             render : ()=> <img alt="Pandit Guru Datta Vidhyarthi" src={Gurudatta} style={window.innerHeight > 675 ? {width: '56%', marginLeft: '22%'} : {width: '46%', marginLeft: '27%'}}></img>,
@@ -446,7 +446,7 @@ const slideMap = {
                     desc=
                     <div>
                       <p>
-                        Within one month of its founding, 550 students had been enrolled in the newly established Dayananda Anglo-Vedic College. On 18 May 1889, the Punjab University also granted affiliation to the college. The D.A.V High School and College taught a curriculum similar to the government schools, but did so without government support or the participation of Englishmen on the faculty. The Lahore’s School later became the model for other Arya Samajis as local groups established elementary and secondary schools throughout the Punjab.
+                        Within one month of its founding, 550 students had been enrolled in the newly established Dayananda Anglo-Vedic College. On 18 May 1889, the Punjab University also granted affiliation to the college. The D.A.V High School and College taught a curriculum similar to the government schools, but did so without government support or the participation of Englishmen serving as faculty. The Lahore’s School later became the model for other Arya Samajis as local groups established elementary and secondary schools throughout the Punjab.
                       </p>
                     </div>
                     />
@@ -492,7 +492,7 @@ const slideMap = {
                     slides={
                       [
                         {
-                          description : <span>D.A.V College Lahore Old Staff (Published in Daily <i>Milap</i> Lahore)</span>,
+                          description : <span>D.A.V College Lahore (Published in Daily <i>Milap</i> Lahore)</span>,
                           title : "",
                           source : "Research Society of Pakistan, University of Punjab",
                           render : ()=> <img alt="DAV College Old Staff, Lahore" src={DAVStaff} style={{width: '70%', marginLeft: '15%'}}></img>
@@ -596,7 +596,7 @@ const slideMap = {
                     slides={
                       [{
                         description : <div>
-                          <p><span>An English Translation of Swami Dayananda’s <i>Satyarth Prakash</i>, published in Lahore (1903)</span></p>
+                          <p><span>An English Translation of Swami Dayananda’s <i>Satyarth Prakash</i> published in Lahore (1903)</span></p>
                           <p><a href="https://archive.org/details/englishtranslati00daya/page/n3/mode/2up" target="_blank">Scanned Copy</a></p>
                         </div>,
                         title : "Sample Title",
@@ -606,7 +606,7 @@ const slideMap = {
                       {
                         description : <div>
                           <p>
-                            <span>A biography of Pandit Guru Datta, one of the founders of the D.A.V School, published in Lahore (1902)</span>
+                            <span>A biography of Pandit Guru Datta, one of the founders of the D.A.V School published in Lahore (1902)</span>
                           </p>
                           <p><a href="https://archive.org/details/worksofthepandit00vidyuoft/page/n3/mode/2up" target="_blank">Scanned Copy</a></p>
                         </div>
@@ -649,7 +649,7 @@ const slideMap = {
                         source : "https://samardeepnotes.blogspot.com",
                         render : ()=> <img alt="8th anniversary of the Lahore Arya Samaj" src={ASPrint7} style={{width: '50%', marginLeft: '25%'}}></img>,
                       },{
-                        description : <span>A newspaper article on Arya Samaj’s claim that only it has the ideological strength to address the caste issue in Hindu religious traditions</span>,
+                        description : <span>A newspaper article on Arya Samaj’s claim that only the Samaj has the ideological strength to address the caste issue in Hindu religious traditions</span>,
                         title : "",
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Article" src={ASPrint8} style={{width: '80%', marginLeft: '10%'}}></img>,
@@ -702,7 +702,7 @@ const slideMap = {
                       [{
                         description : <div>
                           <p>
-                            <span><i>The Message of Brahmo Samaj</i>, a lecture by Kashi Ram published in Lahore (1906)</span>
+                            <span><i>The Message of Brahmo Samaj</i> - a lecture by Kashi Ram published in Lahore (1906)</span>
                           </p>
                           <p><a href="https://archive.org/details/messageofbrahmos00kash/page/n1/mode/2up" target="_blank">Scanned Copy</a></p>
                         </div>
@@ -712,14 +712,14 @@ const slideMap = {
                         render : ()=> <img alt="A published lecture on Brahmo Samaj" src={MOBrahmo} style={window.innerHeight > 675 ? {width: '60%', marginLeft: '20%'} : {width: '50%', marginLeft: '25%'}}></img>,
                       },
                       {
-                        description : <span>An ardent Brahmo and an enthusiastic social reformer, Agnihotri was a key figure in the religious polemics taking place in Lahore. Usually, he conducted the weekly Divine Service in the Brahmo Mandir in Lahore. In 1882, Agnihotri gave up his appointment in the Educational Department and publicly accepted the role of a <i>sanyasi</i> at the Brahmo Mandir in Lahore. His name was changed by Pandit Navin Chandrs Rai to Swami Satyanand Agnihotri. Sahini notes that this was the first occasion when an English-educated person had given up a well-paid post in order to devote his life to public preaching. Agnihotri formed a new centre for his religious activities, called the Dev Samaj, which was another place for preaching Brahmoism with greater zeal than was found possible in the neutral Brahmo Samaj. He also published his inspiring work, <i>Ruhani Zindagi</i> (Spiritual Life), copies of which were to be found in many Brahmo households. In 1892, he announced himself as the ‘Deva Guru Bhagwan’, lost complete faith in God, called his religion ‘Science grounded’, and adopted all the symbols of orthodox Hinduism that he had so enthusiastically discarded upon his joining the Brahmo Samaj.
+                        description : <span>An ardent Brahmo and an enthusiastic social reformer, Agnihotri was a key figure in the religious polemics taking place in Lahore. Usually, he conducted the weekly Divine Service in the Brahmo Mandir in Lahore. In 1882, Agnihotri gave up his appointment in the Educational Department and publicly accepted the role of a <i>sanyasi</i> at the Brahmo Mandir in Lahore. His name was changed by Pandit Navin Chandrs Rai to Swami Satyanand Agnihotri. Sahini notes that this was the first occasion when an English-educated person had given up a well-paid post in order to devote his life to public preaching. Agnihotri formed a new centre for his religious activities, called the Dev Samaj, which was another place for preaching Brahmoism with greater zeal than was possible in the neutral Brahmo Samaj. He also published his inspiring work, <i>Ruhani Zindagi</i> (Spiritual Life), copies of which were to be found in many Brahmo households. In 1892, he announced himself as the ‘Deva Guru Bhagwan’, lost complete faith in God, called his religion ‘Science grounded’, and adopted all the symbols of orthodox Hinduism that he had so enthusiastically discarded upon his joining the Brahmo Samaj.
                         </span>,
                         title : "Sample Title",
                         source : "Wikipedia",
                         render : ()=> <img alt="Pandit Shiv Narain Agnihotri" src={AgnihotriJP} style={window.innerHeight > 675 ? {width: '60%', marginLeft: '20%'} : {width: '50%', marginLeft: '25%'}}></img>,
                       },
                       {
-                        description : "Admitted as a Brahmo Samaj sympathizer within a year or two after his arrival at Lahore, he established a Young Men’s Religious Association in conjunction with Bhai Kashi Ram, which used to meet weekly in the Mandir. He was the Secretary of the Association, under which prayer meetings, lectures, and debates were held. ‘Book Revelation’, ‘The Existence of God’, ‘The Existence of Evil’ and ‘Prayer’ were among the chief subjects of discussion. Public debates on religious and social subjects through scholarly works like ‘Tennyson and Science’, ‘Mysticism in English Poetry’, and ‘Shakespeare as a Moralist’ also took place regularly. He was the Assistant Professor of Science (Physics and Chemistry) at Government College Lahore. He retired at the age of 55 in 1918 but continued to live in the city as an activie participant in its social and political life till 1947. He died a year after the Partition.",
+                        description : "Admitted as a Brahmo Samaj sympathizer within a year or two after his arrival at Lahore, Sahini established a Young Men’s Religious Association in conjunction with Bhai Kashi Ram, which used to meet weekly in the Mandir. He was the Secretary of the Association which organized prayer meetings, lectures, and debates. ‘Book Revelation’, ‘The Existence of God’, ‘The Existence of Evil’ and ‘Prayer’ were among the chief subjects of discussion. Public debates on religious and social subjects through scholarly works like ‘Tennyson and Science’, ‘Mysticism in English Poetry’, and ‘Shakespeare as a Moralist’ also took place regularly. He was the Assistant Professor of Science (Physics and Chemistry) at Government College Lahore. He retired at the age of 55 in 1918, but continued to live in the city as an active participant in its social and political life till 1947. He died a year after the Partition.",
                         title : "Sample Title",
                         source : "https://ruchiramsahni.wordpress.com/",
                         render : ()=> <img alt="Ruchi Ram Sahini" src={RuchiRam} style={window.innerHeight > 675 ? {width: '65%', marginLeft: '17.5%'} : {width: '55%', marginLeft: '22.5%'}}></img>,
@@ -756,7 +756,7 @@ const slideMap = {
                          <div ref={props.addParallaxAndFadeRef(8)} className={classNames(layoutStyles.layout_container, layoutStyles.container_60, layoutStyles.align_center, layoutStyles.justify_center)}>
                             <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>The intra-Hindu debates were not limited to polemical exchanges between high caste men. It certainly involved debates by women as well on such issues as widow remarriage, underage marriages and so on. Also, caste politics was a major concern in Hindu religious polemics.</p>
                             <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>In 1935, B. R. Ambedkar – the charismatic leader of Dalits in British India – was invited to deliver a lecture by a Lahore-based organization – Jat-Pat Todak Mandal. Operating out of Gokul Chand Narang’s palatial house on 5 Montgomery Road, the organization was led by affluent and ‘enlightened’ Hindus of Lahore critical of the caste system.</p>
-                            <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>However, when the executive committee of the Mandal came to know about the contents of Ambedkar’s lecture – especially the part where he talked of the impossibility “to break Caste without annihilating the religious notions on which it, the Caste system, is founded", an adverse reaction followed. After an exchange of letters between the organizers and Ambedkar, the event was eventually cancelled. The lecture was later published under the title of The Annihilation of Caste, and has since become an iconic text in the struggle of Dalits for equality and fight against caste oppression.</p>
+                            <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>However, when the executive committee of the Mandal came to know about the contents of Ambedkar’s lecture – especially the part where he talked of the impossibility “to break Caste without annihilating the religious notions on which it, the Caste system, is founded", an adverse reaction followed. After an exchange of letters between the organizers and Ambedkar, the event was eventually cancelled. The lecture was later published under the title of <i>The Annihilation of Caste</i>, and has since become an iconic text in the struggle of Dalits for equality and fight against caste oppression.</p>
 
                          </div>
                          <div className={classNames(layoutStyles.layout_container, layoutStyles.container_40, layoutStyles.align_center, layoutStyles.justify_center)}>
@@ -787,7 +787,7 @@ const slideMap = {
                           {
                             description : <div>
                               <p>
-                                The undelivered speech by B.R.Ambedkar was later published in 1936
+                                B.R.Ambedkar’s undelivered speech was later published in 1936
                               </p>
                               <p><a href="https://ccnmtl.columbia.edu/projects/mmt/ambedkar/web/readings/aoc_print_2004.pdf" target="_blank">Digital Copy</a></p>
                             </div>,
@@ -827,7 +827,7 @@ const slideMap = {
             {(props) => {
               return (
                 <div className={slideStyles.slideflex}>
-                  <SlideHeading title="Religious Sites" desc="A few present day photographs of former sites of importance for traditional Hinduism as well as reformist Hindu movements"/>
+                  <SlideHeading title="Religious Sites" desc="A few photographs of former sites of importance for traditional Hinduism as well as reformist Hindu movements"/>
                   <div className={slideStyles.slideContent}>
                     <Layout layoutClassName="layout_flexed">
                       <div ref={props.addParallaxAndFadeRef(-4)} className={classNames(layoutStyles.layout_container, layoutStyles.container_33, layoutStyles.align_center, layoutStyles.justify_center)}>
@@ -1033,7 +1033,7 @@ const slideMap = {
             {(props) => {
               return (
                 <div className={slideStyles.slideflex}>
-                  <SlideHeading inverted title="Political Cartoons and Illustrations" desc="Cartoons and Illustrations published in Hindu-led Newspapers also give a glimpse into the politics of Hindus at the time"/>
+                  <SlideHeading inverted title="Political Cartoons and Illustrations" desc="Cartoons and Illustrations published in Hindu-owned newspapers also give a glimpse into the politics of Hindus at the time"/>
                   <div className={slideStyles.slideContent}>
                     <Layout layoutClassName="layout_flexed">
                       <div ref={props.addParallaxAndFadeRef(-4)} className={classNames(layoutStyles.layout_container, layoutStyles.container_33, layoutStyles.align_center, layoutStyles.justify_center)}>
@@ -1108,7 +1108,7 @@ const slideMap = {
                        <Layout fixed_width layoutClassName="layout_flexed">
                          <div ref={props.addParallaxAndFadeRef(8)} className={classNames(layoutStyles.layout_container, layoutStyles.container_60, layoutStyles.align_center, layoutStyles.justify_center)}>
                             <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>Religious acrimony - especially between the Hindus and the Muslims - was at the heart of urban politics in Lahore during the 20th century. The urban Hindus left excluded while Hindu landlords had joined hands with the Muslim and Sikh landlords to form the Unionist Party, and implemented policies that protected their class interests as rural barons. The urban Hindus, on the other hand, continued to plead against discrimination as the Muslims were given special quotas in higher education and jobs.</p>
-                            <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>Amid such class interests and politics of emotion, there was little scope for nationalist politics. Lala Lajpat Rai was one exception. Although he was a towering figure at the forefront of nationalist politics in Lahore, he had a deep-rooted communalist agenda. The Indian National Congress, therefore, failed to have a popular base in the city as it was largely dominated by leaders with affiliation to Arya Samaj or espoused a similar sense of disaffection towards the Muslims.</p>
+                            <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>Amid such class interests and politics of emotion, there was little scope for nationalist politics. Lala Lajpat Rai was one exception. Although he was a towering figure at the forefront of nationalist politics in Lahore, he had a deep-rooted communalist agenda. The Indian National Congress, therefore, failed to have a popular base in the city as it was largely dominated by leaders with affiliation to the Arya Samaj or espoused a similar sense of disaffection towards the Muslims.</p>
                          </div>
                          <div className={classNames(layoutStyles.layout_container, layoutStyles.container_40, layoutStyles.align_center, layoutStyles.justify_center)}>
                             <div ref={props.addParallaxAndFadeRef(10)} id={imageStyles.LLRai} className={classNames(imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",0])} >
@@ -1344,7 +1344,7 @@ const slideMap = {
                        xPos={props.xPos}>
                        <Layout fixed_width layoutClassName="layout_flexed">
                          <div ref={props.addParallaxAndFadeRef(5)} className={classNames(layoutStyles.layout_container, layoutStyles.container_60, layoutStyles.align_center, layoutStyles.justify_center)}>
-                            <p className={slideStyles.slidePara}>Unlike UP and Bihar where the demand to replace Urdu with Devanagari script was popular, there was no serious threat to the status of Urdu in Punjab as the medium of instruction in public schools and an effective mode of social, political and religious commentary. Therefore, even those newspapers that purported to present the case of discrimination faced by Hindus and argued for nationalist politics, chose Urdu as the medium of communication. <i>Milap</i>, <i>Pratap</i> and <i>Bande Matram</i> were major Urdu dailies published from Lahore and widely read by the city’s Hindu community. <i>Milap</i> continued to be published in post-1947 Eastern Punjab as well where a large number of Hindu and Sikhs subscribed to it as they were literate in Urdu only. One such person is Manmohan Singh - the former prime minister of India - who received his early education in British Punjab, and is therefore a fluent reader of Urdu. His ‘Hindi speeches’ were, therefore, written in Urdu script.</p>
+                            <p className={slideStyles.slidePara}>Unlike UP and Bihar where the demand to replace Urdu with Devanagari script was popular, there was no serious threat to the status of Urdu in Punjab as the medium of instruction in public schools and an effective mode of social, political and religious commentary. Therefore, even those newspapers that claimed to present the case of discrimination faced by Hindus and argued for nationalist politics, chose Urdu as the medium of communication. <i>Milap</i>, <i>Pratap</i> and <i>Bande Matram</i> were major Urdu dailies published from Lahore and widely read by the city’s Hindu community. <i>Milap</i> continued to be published in post-1947 Eastern Punjab as well where a large number of Hindu and Sikhs subscribed to it as they were literate in Urdu only. One such person is Manmohan Singh - the former prime minister of India - who received his early education in British Punjab, and is therefore a fluent reader of Urdu. His ‘Hindi speeches’ were, therefore, written in Urdu script.</p>
                          </div>
                          <div className={classNames(layoutStyles.layout_container, layoutStyles.container_40, layoutStyles.align_center, layoutStyles.justify_center)}>
                             <div ref={props.addParallaxAndFadeRef(-5)} id={imageStyles.MilapCover} className={classNames(imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",0])} >
@@ -1401,7 +1401,7 @@ const slideMap = {
                   <div className={slideStyles.slideContent}>
                     <Layout layoutClassName="layout_flexed">
                       <div ref={props.addFadeRef} className={layoutStyles.layout_100}>
-                        <SlideHeading inverted noPadding title="Lahore’s Hindu Newspapers" desc=<span>The choice of words like ‘Hindu newspapers’ reflects the communalized nature of politics in the city. There were similar ‘Muslim newspapers’ as well, such as <i>Zamindar</i> and <i>Inqilab</i>, which mainly catered to the social, politcal and economic interests of the Muslim community. Such a sharp communal divide resulting from various colonial policies was reified over a period of time, and was responsible for much of the violence - and the Partition itself - which took place in 1947.</span>/>
+                        <SlideHeading inverted noPadding title="Lahore’s Hindu Newspapers" desc=<span>The choice of words like ‘Hindu newspapers’ reflects the communalized nature of politics in the city. There were similar ‘Muslim newspapers’ as well, such as <i>Zamindar</i> and <i>Inqilab</i>, which mainly catered to the social, political and economic interests of the Muslim community. Such a sharp communal divide resulting from various colonial policies was reified over a period of time, and was responsible for much of the violence - and the Partition itself - which took place in 1947.</span>/>
                       </div>
                     </Layout>
                   </div>
@@ -1665,7 +1665,7 @@ const mobileSlideMap = {
               <ProjectTitleMobile
                 image={ProjectTitleBack}
                 title="Imagining Lahore as a Hindu City"
-                description=<span>Imagining everyday life of Hindus in pre-partition Lahore through the lens of their politics, religious movements and newspapers</span>
+                description=<span>The everyday life of Hindus in pre-partition Lahore, their politics, religious movements and literature</span>
                 to="chapter1"
               />
             )
@@ -1700,8 +1700,8 @@ const mobileSlideMap = {
                 note="Pictures in the chapter can be clicked for expanded view"
               />
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.increased_padded_bottom)}>
-                <p className={mobileStyles.mobilePara}>In the late 19th century, the city of Lahore was at the center of a battle for Hindu identity. The Arya Samaj had been established in Bombay in 1875 by Swami Dayananda, but it was in Lahore that the ideas inspired by him took the shape of a national movement. Young Punjabi Hindus began abandoning Brahmo ideals, preferring Swami Dayananda’s concepts of Vedic infallibility and shunning traditional Hindu practices, such as idol worship.</p>
-                <p className={mobileStyles.mobilePara}>With a mandir on every corner and a rising awakening of a vast population of Punjabi Hindus, Lahore was the perfect city for the Arya Samaj’s cultural and theological revolution. But the Samaj was not working in a vacuum, and Lahore was a bastion of traditional Hinduism.</p>
+                <p className={mobileStyles.mobilePara}>In the late 19th century, the city of Lahore was at the center of a battle for Hindu identity. Swami Dayananda had established the Arya Samaj in Bombay in 1875 , but it was in Lahore that his ideas inspired a large scale movement. Under the influence of Dayananda’s teachings, young Punjabi Hindus abandoned Brahmo ideals and several traditional Hindu practices.</p>
+                <p className={mobileStyles.mobilePara}>With a mandir on every corner and a rising awakening of a vast population of Punjabi Hindus, Lahore was the perfect city for Arya Samaj’s cultural and theological revolution. But the Samaj was not working in a religious or political vacuum. Lahore was a bastion of traditional Hinduism and there was a great deal of resistance to Arya Samaj’s reformatory zeal.</p>
               </div>
 
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.flexed_container, mobileStyles.increased_padded_bottom)}>
@@ -1724,7 +1724,7 @@ const mobileSlideMap = {
               />
 
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.increased_padded_bottom)}>
-                <p className={mobileStyles.mobilePara}>By the 1890s, the Punjab had witnessed a steep rise of the mercantile Hindu community and a professional class of doctors, engineers and educationists. The impact of colonial modernity had transformed Lahore into a major centre for education, trade and cultural activities. These changes were impacting the worldview of the young Hindu students and professionals, and made them question some of the traditionally held religious views. It is no wonder then that a number of religious reform movements emerged during the late nineteenth century, with Lahore as the focus of these polemical debates and exchange of ideas.</p>
+                <p className={mobileStyles.mobilePara}>By the 1890s, the Punjab had witnessed a steep rise in the economic fortunes of the mercantile Hindu community and a professional class of doctors, engineers and educationists. The impact of colonial modernity had transformed Lahore into a major centre for education, trade and cultural activities. These changes were impacting the worldview of the young Hindu students and professionals, and made them question some of the traditionally held religious views. It is no wonder then that a number of religious reform movements emerged during the late nineteenth century with Lahore as the focus of these polemical debates and exchange of ideas.</p>
               </div>
 
               <MobileSectionTitle
@@ -1736,7 +1736,7 @@ const mobileSlideMap = {
               />
 
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.increased_padded_bottom)}>
-                <p className={mobileStyles.mobilePara}>The Arya Samaj initially lacked any central organization and each Samaj was independent. Dayananda’s death led to disintegration, but also to a burst of energy, as numerous groups sought to honour their departed teacher. They were nearly unanimous in the desire to found a school that would impart his Vedic form of Hinduism, and thus be safe from Christian influence. The Lahore Samaj drafted plans for this institution and on 6 December 1883 set up a subcommittee to raise funds. Initially they were quite successful, but by 1884 enthusiasm waned. In 1885 Lala Hans Raj promised to serve as the principal of the school without pay which rekindled the enthusiasm for founding the college. He, along with Gurudatta Vidhyarthi, finally established the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in June 1886.</p>
+                <p className={mobileStyles.mobilePara}>The Arya Samaj initially lacked any central organization and each Samaj was independent. Dayananda’s death led to disintegration, but also to a burst of energy, as numerous groups sought to honour their departed teacher. They were nearly unanimous in the desire to establish a school that would impart his Vedic form of Hinduism, and thus be safe from Christian influence. The Lahore Samaj drafted plans for this institution and on 6 December 1883 set up a subcommittee to raise funds. Initially they were quite successful, but by 1884 enthusiasm for the project had waned. In 1885 Lala Hans Raj promised to serve as the principal of the school without pay, which rekindled the enthusiasm for founding the college. He, along with Gurudatta Vidhyarthi, finally established the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in June 1886.</p>
               </div>
 
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100)}>
@@ -1771,7 +1771,7 @@ const mobileSlideMap = {
               </div>
 
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.increased_padded_bottom)}>
-                <p className={mobileStyles.mobilePara}>Within one month of its founding, 550 students had been enrolled in the newly established Dayananda Anglo-Vedic College. On 18 May 1889, the Punjab University also granted affiliation to the college. The D.A.V High School and College taught a curriculum similar to the government schools, but did so without government support or the participation of Englishmen on the faculty. The Lahore’s School later became the model for other Arya Samajis as local groups established elementary and secondary schools throughout the Punjab.</p>
+                <p className={mobileStyles.mobilePara}>Within one month of its founding, 550 students had been enrolled in the newly established Dayananda Anglo-Vedic College. On 18 May 1889, the Punjab University also granted affiliation to the college. The D.A.V High School and College taught a curriculum similar to the government schools, but did so without government support or the participation of Englishmen serving as faculty. The Lahore’s School later became the model for other Arya Samajis as local groups established elementary and secondary schools throughout the Punjab.</p>
               </div>
 
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100)}>
@@ -1906,7 +1906,7 @@ const mobileSlideMap = {
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.increased_padded_bottom)}>
                 <p className={mobileStyles.mobilePara}>The intra-Hindu debates were not limited to polemical exchanges between high caste men. It certainly involved debates by women as well on such issues as widow remarriage, underage marriages and so on. Also, caste politics was a major concern in Hindu religious polemics.</p>
                 <p className={mobileStyles.mobilePara}>In 1935, B. R. Ambedkar – the charismatic leader of Dalits in British India – was invited to deliver a lecture by a Lahore-based organization – Jat-Pat Todak Mandal. Operating out of Gokul Chand Narang’s palatial house on 5 Montgomery Road, the organization was led by affluent and ‘enlightened’ Hindus of Lahore critical of the caste system.</p>
-                <p className={mobileStyles.mobilePara}>However, when the executive committee of the Mandal came to know about the contents of Ambedkar’s lecture – especially the part where he talked of the impossibility “to break Caste without annihilating the religious notions on which it, the Caste system, is founded", an adverse reaction followed. After an exchange of letters between the organizers and Ambedkar, the event was eventually cancelled. The lecture was later published under the title of The Annihilation of Caste, and has since become an iconic text in the struggle of Dalits for equality and fight against caste oppression.</p>
+                <p className={mobileStyles.mobilePara}>However, when the executive committee of the Mandal came to know about the contents of Ambedkar’s lecture – especially the part where he talked of the impossibility “to break Caste without annihilating the religious notions on which it, the Caste system, is founded", an adverse reaction followed. After an exchange of letters between the organizers and Ambedkar, the event was eventually cancelled. The lecture was later published under the title of <i>The Annihilation of Caste</i>, and has since become an iconic text in the struggle of Dalits for equality and fight against caste oppression.</p>
               </div>
 
               <div id={mobileStyles.hideCasteGall} className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.padded_top)}>
@@ -1943,6 +1943,10 @@ const mobileSlideMap = {
                 chapterNumber="CHAPTER 1: RELIGIOUS MOVEMENTS"
                 note="Pictures in the chapter can be clicked for expanded view"
               />
+
+              <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.increased_padded_bottom)}>
+                <p className={mobileStyles.mobilePara}>A few photographs of former sites of importance for traditional Hinduism as well as reformist Hindu movements</p>
+              </div>
 
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.flexed_container, mobileStyles.increased_padded_bottom, mobileStyles.increased_padded_top)}>
                 <div className={mobileStyles.mobile_layout_33}>
@@ -2009,13 +2013,13 @@ const mobileSlideMap = {
                       render : ()=> <img alt="Islamia College, Civil Lines Lahore" src={IC} id={overlay_styles.IC}></img>,
                     },
                     {
-                      description : <span>Also known as Mahatama Hansraj, he was amongst the prominent leaders of the Arya Samaj in Lahore. He joined the Arya Samaj while a student at Lahore’s Government College. He founded, with Gurudatta Vidhyarthi, the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in 1886. Hansraj served as the principal of the D.A.V. College for 25 years, and served as the president of the provincial Arya Pradeshik Pratinidhi Sabha. He died in Lahore on 14 November 1938.</span>,
+                      description : <span>Also known as Mahatama Hansraj, Lala Hans Raj was amongst the prominent leaders of the Arya Samaj in Lahore. He joined the Arya Samaj while a student at Lahore’s Government College. He founded, along with Gurudatta Vidhyarthi, the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in 1886. Hansraj served as the principal of the D.A.V. College for 25 years, and served as the president of the provincial Arya Pradeshik Pratinidhi Sabha. He died in Lahore on 14 November 1938.</span>,
                       title : "Sample Title",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Mahatma Hans Raj" src={HansRajBG} id={overlay_styles.HansRajBG}></img>,
                     },
                     {
-                      description : <span>He was a prominent leader of the Arya Samaj in Multan, and later moved to Lahore after Dayananda’s death. He was born to a wealthy Arora family in Multan. He received his BA and MA degrees at the Government College Lahore. When the news was received of Dayananda’s illness at Ajmer, the Arya Samaj at Lahore chose him, only nineteen years old, and Lala Kivan Das to go to Ajmer to tend to Swami Dayanand. After returning to Lahore, he actively got involved with the Arya Samaj Chapter in Lahore. Along with others - such as Pandit Lekh Ram and Lala Munshi Ram - Datta wanted the DAV curriculum to focus on Vedic ideology and the study of Sanskrit. Such an approach was contrary to the moderate faction of Arya Samaj who wished to provide English education to Hindus in an environment where their religious outlook was preserved while they received higher education relevant to the needs of the modern world. By 1893, the Arya Samaj was formally divided. The conservatives (led by Pandit Guru Datta) gained control over most of the local Arya Samaj chapters and the Arya Pratinidhi Sabha, Punjab. The moderates kept their hold on to the Managing Committee and the DAV school.</span>,
+                      description : <span>Pandit Vidyarth was a prominent leader of the Arya Samaj in Multan, and later moved to Lahore after Dayananda’s death. He was born to a wealthy Arora family in Multan. He received his BA and MA degrees at the Government College Lahore. When the news was received of Dayananda’s illness at Ajmer, the Arya Samaj at Lahore chose him - only nineteen years old at that time - and Lala Kivan Das to go to Ajmer to tend to Swami Dayanand. After returning to Lahore, he actively got involved with the Arya Samaj Chapter in Lahore. Along with others - such as Pandit Lekh Ram and Lala Munshi Ram - Datta wanted the DAV curriculum to focus on Vedic ideology and the study of Sanskrit. Such an approach was contrary to the moderate faction of the Arya Samaj who wished to provide English education to Hindus in an environment where their religious outlook was preserved while they received higher education relevant to the needs of the modern world. By 1893, the Arya Samaj was formally divided. The conservatives (led by Pandit Guru Datta) gained control over most of the local Arya Samaj chapters and the Arya Pratinidhi Sabha, Punjab. The moderates kept their hold on to the Managing Committee and the DAV school.</span>,
                       title : "Sample Title",
                       source : "Wikipedia",
                       render : ()=> <img alt="Pandit Guru Datta Vidhyarthi" src={Gurudatta} id={overlay_styles.Gurudatta}></img>,
@@ -2033,7 +2037,7 @@ const mobileSlideMap = {
                 slides={
                   [
                     {
-                      description : <span>D.A.V College Lahore Old Staff (Published in Daily <i>Milap</i> Lahore)</span>,
+                      description : <span>D.A.V College Lahore (Published in Daily <i>Milap</i> Lahore)</span>,
                       title : "",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="DAV College Old Staff, Lahore" src={DAVStaff} id={overlay_styles.DAVStaff}></img>
@@ -2068,7 +2072,7 @@ const mobileSlideMap = {
                 slides={
                   [{
                     description : <div>
-                      <p><span>An English Translation of Swami Dayananda’s <i>Satyarth Prakash</i>, published in Lahore (1903)</span></p>
+                      <p><span>An English Translation of Swami Dayananda’s <i>Satyarth Prakash</i> published in Lahore (1903)</span></p>
                       <p><a href="https://archive.org/details/englishtranslati00daya/page/n3/mode/2up" target="_blank">Scanned Copy</a></p>
                     </div>,
                     title : "Sample Title",
@@ -2078,7 +2082,7 @@ const mobileSlideMap = {
                   {
                     description : <div>
                       <p>
-                        <span>A biography of Pandit Guru Datta, one of the founders of the D.A.V School, published in Lahore (1902)</span>
+                        <span>A biography of Pandit Guru Datta, one of the founders of the D.A.V School published in Lahore (1902)</span>
                       </p>
                       <p><a href="https://archive.org/details/worksofthepandit00vidyuoft/page/n3/mode/2up" target="_blank">Scanned Copy</a></p>
                     </div>
@@ -2121,7 +2125,7 @@ const mobileSlideMap = {
                     source : "https://samardeepnotes.blogspot.com",
                     render : ()=> <img alt="8th anniversary of the Lahore Arya Samaj" src={ASPrint7} id={overlay_styles.ASPrint7}></img>,
                   },{
-                    description : <span>A newspaper article on Arya Samaj’s claim that only it has the ideological strength to address the caste issue in Hindu religious traditions</span>,
+                    description : <span>A newspaper article on Arya Samaj’s claim that only the Samaj has the ideological strength to address the caste issue in Hindu religious traditions</span>,
                     title : "",
                     source : "Research Society of Pakistan, University of Punjab",
                     render : ()=> <img alt="Article" src={ASPrint8} id={overlay_styles.ASPrint8}></img>,
@@ -2138,7 +2142,7 @@ const mobileSlideMap = {
                   [{
                     description : <div>
                       <p>
-                        <span><i>The Message of Brahmo Samaj</i>, a lecture by Kashi Ram published in Lahore (1906)</span>
+                        <span><i>The Message of Brahmo Samaj</i> - a lecture by Kashi Ram published in Lahore (1906)</span>
                       </p>
                       <p><a href="https://archive.org/details/messageofbrahmos00kash/page/n1/mode/2up" target="_blank">Scanned Copy</a></p>
                     </div>
@@ -2148,14 +2152,14 @@ const mobileSlideMap = {
                     render : ()=> <img alt="A published lecture on Brahmo Samaj" src={MOBrahmo} id={overlay_styles.MOBrahmo}></img>,
                   },
                   {
-                    description : <span>An ardent Brahmo and an enthusiastic social reformer, Agnihotri was a key figure in the religious polemics taking place in Lahore. Usually, he conducted the weekly Divine Service in the Brahmo Mandir in Lahore. In 1882, Agnihotri gave up his appointment in the Educational Department and publicly accepted the role of a <i>sanyasi</i> at the Brahmo Mandir in Lahore. His name was changed by Pandit Navin Chandrs Rai to Swami Satyanand Agnihotri. Sahini notes that this was the first occasion when an English-educated person had given up a well-paid post in order to devote his life to public preaching. Agnihotri formed a new centre for his religious activities, called the Dev Samaj, which was another place for preaching Brahmoism with greater zeal than was found possible in the neutral Brahmo Samaj. He also published his inspiring work, <i>Ruhani Zindagi</i> (Spiritual Life), copies of which were to be found in many Brahmo households. In 1892, he announced himself as the ‘Deva Guru Bhagwan’, lost complete faith in God, called his religion ‘Science grounded’, and adopted all the symbols of orthodox Hinduism that he had so enthusiastically discarded upon his joining the Brahmo Samaj.
+                    description : <span>An ardent Brahmo and an enthusiastic social reformer, Agnihotri was a key figure in the religious polemics taking place in Lahore. Usually, he conducted the weekly Divine Service in the Brahmo Mandir in Lahore. In 1882, Agnihotri gave up his appointment in the Educational Department and publicly accepted the role of a <i>sanyasi</i> at the Brahmo Mandir in Lahore. His name was changed by Pandit Navin Chandrs Rai to Swami Satyanand Agnihotri. Sahini notes that this was the first occasion when an English-educated person had given up a well-paid post in order to devote his life to public preaching. Agnihotri formed a new centre for his religious activities, called the Dev Samaj, which was another place for preaching Brahmoism with greater zeal than was possible in the neutral Brahmo Samaj. He also published his inspiring work, <i>Ruhani Zindagi</i> (Spiritual Life), copies of which were to be found in many Brahmo households. In 1892, he announced himself as the ‘Deva Guru Bhagwan’, lost complete faith in God, called his religion ‘Science grounded’, and adopted all the symbols of orthodox Hinduism that he had so enthusiastically discarded upon his joining the Brahmo Samaj.
                     </span>,
                     title : "Sample Title",
                     source : "Wikipedia",
                     render : ()=> <img alt="Pandit Shiv Narain Agnihotri" src={AgnihotriJP} id={overlay_styles.AgnihotriJP}></img>,
                   },
                   {
-                    description : "Admitted as a Brahmo Samaj sympathizer within a year or two after his arrival at Lahore, he established a Young Men’s Religious Association in conjunction with Bhai Kashi Ram, which used to meet weekly in the Mandir. He was the Secretary of the Association, under which prayer meetings, lectures, and debates were held. ‘Book Revelation’, ‘The Existence of God’, ‘The Existence of Evil’ and ‘Prayer’ were among the chief subjects of discussion. Public debates on religious and social subjects through scholarly works like ‘Tennyson and Science’, ‘Mysticism in English Poetry’, and ‘Shakespeare as a Moralist’ also took place regularly. He was the Assistant Professor of Science (Physics and Chemistry) at Government College Lahore. He retired at the age of 55 in 1918 but continued to live in the city as an activie participant in its social and political life till 1947. He died a year after the Partition.",
+                    description : "Admitted as a Brahmo Samaj sympathizer within a year or two after his arrival at Lahore, Sahini established a Young Men’s Religious Association in conjunction with Bhai Kashi Ram, which used to meet weekly in the Mandir. He was the Secretary of the Association which organized prayer meetings, lectures, and debates. ‘Book Revelation’, ‘The Existence of God’, ‘The Existence of Evil’ and ‘Prayer’ were among the chief subjects of discussion. Public debates on religious and social subjects through scholarly works like ‘Tennyson and Science’, ‘Mysticism in English Poetry’, and ‘Shakespeare as a Moralist’ also took place regularly. He was the Assistant Professor of Science (Physics and Chemistry) at Government College Lahore. He retired at the age of 55 in 1918, but continued to live in the city as an active participant in its social and political life till 1947. He died a year after the Partition.",
                     title : "Sample Title",
                     source : "https://ruchiramsahni.wordpress.com/",
                     render : ()=> <img alt="Ruchi Ram Sahini" src={RuchiRam} id={overlay_styles.RuchiRam}></img>,
@@ -2173,7 +2177,7 @@ const mobileSlideMap = {
                     {
                       description : <div>
                         <p>
-                          The undelivered speech by B.R.Ambedkar was later published in 1936
+                          B.R.Ambedkar’s undelivered speech was later published in 1936
                         </p>
                         <p><a href="https://ccnmtl.columbia.edu/projects/mmt/ambedkar/web/readings/aoc_print_2004.pdf" target="_blank">Digital Copy</a></p>
                       </div>,
@@ -2307,7 +2311,7 @@ const mobileSlideMap = {
                 />
 
                 <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.padded_bottom)}>
-                  <p className={mobileStyles.mobilePara}>Cartoons and Illustrations published in Hindu-led Newspapers also give a glimpse into the politics of Hindus at the time</p>
+                  <p className={mobileStyles.mobilePara}>Cartoons and Illustrations published in Hindu-owned newspapers also give a glimpse into the politics of Hindus at the time</p>
                 </div>
 
                 <div className={classNames(mobileStyles.mobile_layout, mobileStyles.flexed_container, mobileStyles.increased_padded_bottom)}>
@@ -2332,7 +2336,7 @@ const mobileSlideMap = {
 
                 <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.padded_bottom)}>
                   <p className={mobileStyles.mobilePara}>Religious acrimony - especially between the Hindus and the Muslims - was at the heart of urban politics in Lahore during the 20th century. The urban Hindus left excluded while Hindu landlords had joined hands with the Muslim and Sikh landlords to form the Unionist Party, and implemented policies that protected their class interests as rural barons. The urban Hindus, on the other hand, continued to plead against discrimination as the Muslims were given special quotas in higher education and jobs.</p>
-                  <p className={mobileStyles.mobilePara}>Amid such class interests and politics of emotion, there was little scope for nationalist politics. Lala Lajpat Rai was one exception. Although he was a towering figure at the forefront of nationalist politics in Lahore, he had a deep-rooted communalist agenda. The Indian National Congress, therefore, failed to have a popular base in the city as it was largely dominated by leaders with affiliation to Arya Samaj or espoused a similar sense of disaffection towards the Muslims.</p>
+                  <p className={mobileStyles.mobilePara}>Amid such class interests and politics of emotion, there was little scope for nationalist politics. Lala Lajpat Rai was one exception. Although he was a towering figure at the forefront of nationalist politics in Lahore, he had a deep-rooted communalist agenda. The Indian National Congress, therefore, failed to have a popular base in the city as it was largely dominated by leaders with affiliation to the Arya Samaj or espoused a similar sense of disaffection towards the Muslims.</p>
                 </div>
 
                 <div className={classNames(mobileStyles.mobile_layout, mobileStyles.flexed_container, mobileStyles.increased_padded_bottom)}>
@@ -2584,7 +2588,7 @@ const mobileSlideMap = {
                 />
 
                 <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.padded_bottom)}>
-                  <p className={mobileStyles.mobilePara}>Unlike UP and Bihar where the demand to replace Urdu with Devanagari script was popular, there was no serious threat to the status of Urdu in Punjab as the medium of instruction in public schools and an effective mode of social, political and religious commentary. Therefore, even those newspapers that purported to present the case of discrimination faced by Hindus and argued for nationalist politics, chose Urdu as the medium of communication. <i>Milap</i>, <i>Pratap</i> and <i>Bande Matram</i> were major Urdu dailies published from Lahore and widely read by the city’s Hindu community. <i>Milap</i> continued to be published in post-1947 Eastern Punjab as well where a large number of Hindu and Sikhs subscribed to it as they were literate in Urdu only. One such person is Manmohan Singh - the former prime minister of India - who received his early education in British Punjab, and is therefore a fluent reader of Urdu. His ‘Hindi speeches’ were, therefore, written in Urdu script.</p>
+                  <p className={mobileStyles.mobilePara}>Unlike UP and Bihar where the demand to replace Urdu with Devanagari script was popular, there was no serious threat to the status of Urdu in Punjab as the medium of instruction in public schools and an effective mode of social, political and religious commentary. Therefore, even those newspapers that claimed to present the case of discrimination faced by Hindus and argued for nationalist politics, chose Urdu as the medium of communication. <i>Milap</i>, <i>Pratap</i> and <i>Bande Matram</i> were major Urdu dailies published from Lahore and widely read by the city’s Hindu community. <i>Milap</i> continued to be published in post-1947 Eastern Punjab as well where a large number of Hindu and Sikhs subscribed to it as they were literate in Urdu only. One such person is Manmohan Singh - the former prime minister of India - who received his early education in British Punjab, and is therefore a fluent reader of Urdu. His ‘Hindi speeches’ were, therefore, written in Urdu script.</p>
                 </div>
 
                 <div className={classNames(mobileStyles.mobile_layout, mobileStyles.flexed_container, mobileStyles.padded_bottom)}>
@@ -2599,7 +2603,7 @@ const mobileSlideMap = {
                 </div>
 
                 <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_bottom)}>
-                  <p className={mobileStyles.mobilePara}>The choice of words like ‘Hindu newspapers’ reflects the communalized nature of politics in the city. There were similar ‘Muslim newspapers’ as well, such as <i>Zamindar</i> and <i>Inqilab</i>, which mainly catered to the social, politcal and economic interests of the Muslim community. Such a sharp communal divide resulting from various colonial policies was reified over a period of time, and was responsible for much of the violence - and the Partition itself - which took place in 1947.</p>
+                  <p className={mobileStyles.mobilePara}>The choice of words like ‘Hindu newspapers’ reflects the communalized nature of politics in the city. There were similar ‘Muslim newspapers’ as well, such as <i>Zamindar</i> and <i>Inqilab</i>, which mainly catered to the social, political and economic interests of the Muslim community. Such a sharp communal divide resulting from various colonial policies was reified over a period of time, and was responsible for much of the violence - and the Partition itself - which took place in 1947.</p>
                 </div>
 
                 <MobileSectionTitle

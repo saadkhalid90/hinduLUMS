@@ -356,6 +356,9 @@
 }
 
 @media only screen and (max-width: 610px) {
+  #DSMandir {
+    margin-left: 0px;
+  }
 }
 
 @media only screen and (max-height: 720px) {
