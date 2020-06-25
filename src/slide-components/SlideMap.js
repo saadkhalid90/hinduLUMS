@@ -1060,13 +1060,13 @@ const slideMap = {
                     setDisplayedOverlay={props.setDisplayedOverlay}
                     slides={
                       [{
-                        description : <span>A cartoon published in Daily Milap ridiculing the hyper-religiosity of some Muslim leaders as the reason for communal tension. This is contrasted by a Fez-wearing, modernist Muslim who is shown as calm and rational, hence more amenable to reason rather than religious passion.</span>,
+                        description : <span>A cartoon published in <i>Daily Milap</i> ridiculing the hyper-religiosity of some Muslim leaders as the reason for communal tension. This is contrasted by a Fez-wearing, modernist Muslim who is shown as calm and rational, hence more amenable to reason rather than religious passion.</span>,
                         title : "Sample Title",
                         source : "Centre for South Asian Studies, University of Cambridge",
                         render : ()=> <img alt="Cartoon published in Daily Milap" src={Cartoon} style={window.innerHeight > 675 ? {width: '70%', marginLeft: '15%'} : {width: '60%', marginLeft: '20%'}}></img>,
                       },
                       {
-                        description : <span>An illustration published in Daily Milap symbolizes the ordeals and sacrifices that are necessary to gain freedom</span>,
+                        description : <span>An illustration published in <i>Daily Milap</i> symbolizes the ordeals and sacrifices that are necessary to gain freedom</span>,
                         title : "Sample Title",
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Freedom Art in Daily Milap" src={MilapFreedomArt} style={window.innerHeight > 675 ? {width: '60%', marginLeft: '20%'} : {width: '50%', marginLeft: '25%'}}></img>,
@@ -2445,13 +2445,13 @@ const mobileSlideMap = {
                   setDisplayedOverlay={props.setDisplayedOverlay}
                   slides={
                     [{
-                      description : <span>A cartoon published in Daily Milap ridiculing the hyper-religiosity of some Muslim leaders as the reason for communal tension. This is contrasted by a Fez-wearing, modernist Muslim who is shown as calm and rational, hence more amenable to reason rather than religious passion.</span>,
+                      description : <span>A cartoon published in <i>Daily Milap</i> ridiculing the hyper-religiosity of some Muslim leaders as the reason for communal tension. This is contrasted by a Fez-wearing, modernist Muslim who is shown as calm and rational, hence more amenable to reason rather than religious passion.</span>,
                       title : "Sample Title",
                       source : "Centre for South Asian Studies, University of Cambridge",
                       render : ()=> <img alt="Cartoon published in Daily Milap" src={Cartoon} id={overlay_styles.Cartoon}></img>,
                     },
                     {
-                      description : <span>An illustration published in Daily Milap symbolizes the ordeals and sacrifices that are necessary to gain freedom</span>,
+                      description : <span>An illustration published in <i>Daily Milap</i> symbolizes the ordeals and sacrifices that are necessary to gain freedom</span>,
                       title : "Sample Title",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Freedom Art in Daily Milap" src={MilapFreedomArt} id={overlay_styles.MilapFreedomArt}></img>,
