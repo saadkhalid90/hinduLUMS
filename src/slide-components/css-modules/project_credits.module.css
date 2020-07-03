@@ -156,6 +156,17 @@
   cursor: pointer;
 }
 
+.lums_archive {
+  position: absolute;
+  left: 0px;
+  bottom: 30px;
+  cursor: pointer;
+}
+
+.image_arch_logo {
+  width: 175px;
+}
+
 @media only screen and (max-width: 1024px) {
   .browse_more_projMessage {
     font-size: 16px;
@@ -198,6 +209,12 @@
   .plotreeLogo {
     width: 25px;
   }
+  .lums_archive {
+    left: 30px;
+  }
+  .image_arch_logo {
+    width: 145px;
+  }
 }
 
 @media only screen and (max-width: 610px) {
@@ -233,6 +250,9 @@
     width: 65px;
     margin-bottom: 5px;
   }
+  .desig {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 420px) and (max-height: 600px) {
@@ -259,5 +279,23 @@
   }
   .browse_more_projMessage {
     font-size: 17px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  .designed_by {
+    bottom: 45px;
+    font-size: 11px;
+  }
+  .lums_archive {
+    bottom: 10px;
+    right: 30px;
+    left: auto;
+  }
+}
+
+@media only screen and (max-width: 335px) {
+  .scroll_prompt {
+    margin-top: 0px;
   }
 }
