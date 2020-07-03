@@ -492,25 +492,25 @@ const slideMap = {
                     slides={
                       [
                         {
-                          description : <span>D.A.V College Lahore (Published in Daily <i>Milap</i> Lahore)</span>,
+                          description : <span>D.A.V College Lahore (published in Daily <i>Milap</i> Lahore)</span>,
                           title : "",
                           source : "Research Society of Pakistan, University of Punjab",
                           render : ()=> <img alt="DAV College Old Staff, Lahore" src={DAVStaff} style={{width: '70%', marginLeft: '15%'}}></img>
                         },
                         {
-                          description : <span>D.A.V College Lahore (Published in Daily <i>Milap</i> Lahore)</span>,
+                          description : <span>D.A.V College Lahore (published in Daily <i>Milap</i> Lahore)</span>,
                           title : "",
                           source : "Research Society of Pakistan, University of Punjab",
                           render : ()=> <img alt="DAV College Lahore" src={DAVLahore} style={{width: '66%', marginLeft: '17%'}}></img>
                         },
                         {
-                          description : <span>D.A.V College Multan (Published in Daily <i>Milap</i> Lahore)</span>,
+                          description : <span>D.A.V College Multan (published in Daily <i>Milap</i> Lahore)</span>,
                           title : "",
                           source : "Research Society of Pakistan, University of Punjab",
                           render : ()=> <img alt="DAV College Multan" src={DAVMultan} style={{width: '66%', marginLeft: '17%'}}></img>
                         },
                         {
-                          description : <span>D.A.V College Rawalpindi (Published in Daily <i>Milap</i> Lahore)</span>,
+                          description : <span>D.A.V College Rawalpindi (published in Daily <i>Milap</i> Lahore)</span>,
                           title : "",
                           source : "Research Society of Pakistan, University of Punjab",
                           render : ()=> <img alt="DAV College Rawalpindi" src={DAVPindi} style={{width: '60%', marginLeft: '20%'}}></img>
@@ -1003,7 +1003,7 @@ const slideMap = {
                         render : ()=> <img alt="Poem" src={PunjabkeHindu} style={window.innerHeight > 675 ? {width: '80%', marginLeft: '10%'} : {width: '70%', marginLeft: '15%'}}></img>,
                       },
                       {
-                        description : <span>In an article published in Daily <i>Milap</i>, Dr. Gokul Chand argued that the reason behind the apparent weakness of ‘the Hindus’ was that they were not inward oriented, unlike other groups. Focus should be shifted back to Hindu Dharam and the plight of its people instead of focusing on other external affairs, so that the Dharam may prosper</span>,
+                        description : <span>In an article published in Daily <i>Milap</i> (24 October 1936), Dr. Gokul Chand argued that the reason behind the apparent weakness of ‘the Hindus’ was that they were not inward oriented, unlike other groups. Focus should be shifted back to Hindu Dharam and the plight of its people instead of focusing on other external affairs, so that the Dharam may prosper</span>,
                         title : "Sample Title2",
                         source : "Centre for South Asian Studies, University of Cambridge",
                         render : ()=> <img alt="Milap Article" src={HinduPeeche} style={window.innerHeight > 675 ? {width: '95%', marginLeft: '2.5%'} : {width: '85%', marginLeft: '7.5%'}}></img>,
@@ -1072,7 +1072,7 @@ const slideMap = {
                         render : ()=> <img alt="Freedom Art in Daily Milap" src={MilapFreedomArt} style={window.innerHeight > 675 ? {width: '60%', marginLeft: '20%'} : {width: '50%', marginLeft: '25%'}}></img>,
                       },
                       {
-                        description : "A full page feature on Hindus who had been victims of ‘Muslim violence’. In particular, the focus is on the figure of Haqiqat Rai - a Hindu boy who was killed in early 18th century Lahore for refusing to change his religion",
+                        description : <span>A full page feature on Hindus who had been victims of ‘Muslim violence’. In particular, the focus is on the figure of Haqiqat Rai - a Hindu boy who was killed in early 18th century Lahore for refusing to change his religion (published in Daily <i>Milap</i> on 3 February 1930)</span>,
                         title : "Sample Title",
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Full page feature on Hindu Martyrs" src={Martyrs} style={window.innerHeight > 675 ? {width: '65%', marginLeft: '17.5%'} : {width: '55%', marginLeft: '22.5%'}}></img>,
@@ -1241,25 +1241,25 @@ const slideMap = {
                         render : ()=> <img alt="Shaheed number, Daily Pratap" src={LLR_Pratap} style={{width: '70%', marginLeft: '15%'}}></img>,
                       },
                       {
-                        description : "A poem paying tribute to Lala Lajpat Rai",
+                        description : <span>A poem paying tribute to Lala Lajpat Rai (published in Daily <i>Bande Matram</i> on 6 November 1929)</span>,
                         title : "Sample Title",
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Poem" src={LLR_Poem1} style={window.innerHeight > 675 ? {width: '80%', marginLeft: '10%'} : {width: '70%', marginLeft: '15%'}}></img>,
                       },
                       {
-                        description : "A poem paying homage to Lala Lajpat Rai",
+                        description : <span>A poem paying homage to Lala Lajpat Rai (published in Daily <i>Pratap</i> on 17 November 1929)</span>,
                         title : "Sample Title2",
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Poem" src={LLR_Poem2} style={window.innerHeight > 675 ? {width: '65%', marginLeft: '17.5%'} : {width: '55%', marginLeft: '22.5%'}}></img>,
                       },
                       {
-                        description : "A newspaper story on the availability of a site for Lala Lajpat Rai’s statue along with a poem celebrating him.",
+                        description : <span>A newspaper story on the availability of a site for Lala Lajpat Rai’s statue along with a poem celebrating him (Daily <i>Milap</i>)</span>,
                         title : "Sample Title2",
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Poem and Article on Lajpat Rai's statue" src={LLR_Poem3} style={{width: '65%', marginLeft: '17.5%'}}></img>,
                       },
                       {
-                        description : "A full page feature on different images of Lala Lajpat Rai during his lifetime.",
+                        description : <span>A full page feature on different images of Lala Lajpat Rai during his lifetime (published in Daily <i>Bande Matram</i> on 16 November 1929)</span>,
                         title : "Sample Title2",
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Lala Lajpat Rai's pictures" src={LLR_Pict} style={{width: '70%', marginLeft: '15%'}}></img>,
@@ -1274,7 +1274,7 @@ const slideMap = {
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Congregation in the memory of Lala Lajpat Rai" src={LLR_Jalsa} style={{width: '80%', marginLeft: '10%'}}></img>,
                       },{
-                        description : " An article on the writings of Lala Lajpat Rai",
+                        description : <span>An article on the writings of Lala Lajpat Rai (published in Daily <i>Milap</i> on 18 November 1929)</span>,
                         title : "Sample Title2",
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Writings of Lala Lajpat Rai" src={LLR_Writings} style={{width: '70%', marginLeft: '15%'}}></img>,
@@ -1553,13 +1553,13 @@ const slideMap = {
                     setDisplayedOverlay={props.setDisplayedOverlay}
                     slides={
                       [{
-                        description : "A poem celebrating the arrival of spring",
+                        description : <span>A poem celebrating the arrival of spring in Daily <i>Milap</i></span>,
                         title : "Sample Title",
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Poem" src={Poem1} style={window.innerHeight > 675 ? {width: '70%', marginLeft: '15%'} : {width: '60%', marginLeft: '20%'}}></img>,
                       },
                       {
-                        description : "A poem lamenting the status of Hindus",
+                        description : <span>A poem lamenting the status of Hindus (published in Daily <i>Milap</i> on 6 September 1928)</span>,
                         title : "Sample Title",
                         source : "Research Society of Pakistan, University of Punjab",
                         render : ()=> <img alt="Poem" src={Poem2} style={window.innerHeight > 675 ? {width: '90%', marginLeft: '5%'} : {width: '80%', marginLeft: '10%'}}></img>,
@@ -2037,25 +2037,25 @@ const mobileSlideMap = {
                 slides={
                   [
                     {
-                      description : <span>D.A.V College Lahore (Published in Daily <i>Milap</i> Lahore)</span>,
+                      description : <span>D.A.V College Lahore (published in Daily <i>Milap</i> Lahore)</span>,
                       title : "",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="DAV College Old Staff, Lahore" src={DAVStaff} id={overlay_styles.DAVStaff}></img>
                     },
                     {
-                      description : <span>D.A.V College Lahore (Published in Daily <i>Milap</i> Lahore)</span>,
+                      description : <span>D.A.V College Lahore (published in Daily <i>Milap</i> Lahore)</span>,
                       title : "",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="DAV College Lahore" src={DAVLahore} id={overlay_styles.DAVLahore}></img>
                     },
                     {
-                      description : <span>D.A.V College Multan (Published in Daily <i>Milap</i> Lahore)</span>,
+                      description : <span>D.A.V College Multan (published in Daily <i>Milap</i> Lahore)</span>,
                       title : "",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="DAV College Multan" src={DAVMultan} id={overlay_styles.DAVMultan}></img>
                     },
                     {
-                      description : <span>D.A.V College Rawalpindi (Published in Daily <i>Milap</i> Lahore)</span>,
+                      description : <span>D.A.V College Rawalpindi (published in Daily <i>Milap</i> Lahore)</span>,
                       title : "",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="DAV College Rawalpindi" src={DAVPindi} id={overlay_styles.DAVPindi}></img>
@@ -2428,7 +2428,7 @@ const mobileSlideMap = {
                       render : ()=> <img alt="Poem" src={PunjabkeHindu} id={overlay_styles.PunjabkeHindu}></img>,
                     },
                     {
-                      description : <span>In an article published in Daily <i>Milap</i>, Dr. Gokul Chand argued that the reason behind the apparent weakness of ‘the Hindus’ was that they were not inward oriented, unlike other groups. Focus should be shifted back to Hindu Dharam and the plight of its people instead of focusing on other external affairs, so that the Dharam may prosper</span>,
+                      description : <span>In an article published in Daily <i>Milap</i> (24 October 1936), Dr. Gokul Chand argued that the reason behind the apparent weakness of ‘the Hindus’ was that they were not inward oriented, unlike other groups. Focus should be shifted back to Hindu Dharam and the plight of its people instead of focusing on other external affairs, so that the Dharam may prosper</span>,
                       title : "Sample Title2",
                       source : "Centre for South Asian Studies, University of Cambridge",
                       render : ()=> <img alt="Milap Article" src={HinduPeeche} id={overlay_styles.HinduPeeche}></img>,
@@ -2461,7 +2461,7 @@ const mobileSlideMap = {
                       render : ()=> <img alt="Freedom Art in Daily Milap" src={MilapFreedomArt} id={overlay_styles.MilapFreedomArt}></img>,
                     },
                     {
-                      description : "A full page feature on Hindus who had been victims of ‘Muslim violence’. In particular, the focus is on the figure of Haqiqat Rai - a Hindu boy who was killed in early 18th century Lahore for refusing to change his religion",
+                      description : <span>A full page feature on Hindus who had been victims of ‘Muslim violence’. In particular, the focus is on the figure of Haqiqat Rai - a Hindu boy who was killed in early 18th century Lahore for refusing to change his religion (published in Daily <i>Milap</i> on 3 February 1930)</span>,
                       title : "Sample Title",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Full page feature on Hindu Martyrs" src={Martyrs} id={overlay_styles.Martyrs}></img>,
@@ -2511,25 +2511,25 @@ const mobileSlideMap = {
                       render : ()=> <img alt="Shaheed number, Daily Pratap" src={LLR_Pratap} id={overlay_styles.LLR_Pratap}></img>,
                     },
                     {
-                      description : "A poem paying tribute to Lala Lajpat Rai",
+                      description : <span>A poem paying tribute to Lala Lajpat Rai (published in Daily <i>Bande Matram</i> on 16 November 1929)</span>,
                       title : "Sample Title",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Poem" src={LLR_Poem1} id={overlay_styles.LLR_Poem1}></img>,
                     },
                     {
-                      description : "A poem paying homage to Lala Lajpat Rai",
+                      description : <span>A poem paying homage to Lala Lajpat Rai (published in Daily <i>Pratap</i> on 17 November 1929)</span>,
                       title : "Sample Title2",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Poem" src={LLR_Poem2} id={overlay_styles.LLR_Poem2}></img>,
                     },
                     {
-                      description : "A newspaper story on the availability of a site for Lala Lajpat Rai’s statue along with a poem celebrating him.",
+                      description : <span>A newspaper story on the availability of a site for Lala Lajpat Rai’s statue along with a poem celebrating him (Daily <i>Milap</i>)</span>,
                       title : "Sample Title2",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Poem and Article on Lajpat Rai's statue" src={LLR_Poem3} id={overlay_styles.LLR_Poem3}></img>,
                     },
                     {
-                      description : "A full page feature on different images of Lala Lajpat Rai during his lifetime.",
+                      description : <span>A full page feature on different images of Lala Lajpat Rai during his lifetime (published in Daily <i>Bande Matram</i> on 16 November 1929)</span>,
                       title : "Sample Title2",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Lala Lajpat Rai's pictures" src={LLR_Pict} id={overlay_styles.LLR_Pict}></img>,
@@ -2544,7 +2544,7 @@ const mobileSlideMap = {
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Congregation in the memory of Lala Lajpat Rai" src={LLR_Jalsa} id={overlay_styles.LLR_Jalsa}></img>,
                     },{
-                      description : " An article on the writings of Lala Lajpat Rai",
+                      description : <span>An article on the writings of Lala Lajpat Rai (published in Daily <i>Milap</i> on 18 November 1929)</span>,
                       title : "Sample Title2",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Writings of Lala Lajpat Rai" src={LLR_Writings} id={overlay_styles.LLR_Writings}></img>,
@@ -2758,13 +2758,13 @@ const mobileSlideMap = {
                   setDisplayedOverlay={props.setDisplayedOverlay}
                   slides={
                     [{
-                      description : "A poem celebrating the arrival of spring",
+                      description : <span>A poem celebrating the arrival of spring in Daily <i>Milap</i></span>,
                       title : "Sample Title",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Poem" src={Poem1} id={overlay_styles.Poem1}></img>,
                     },
                     {
-                      description : "A poem lamenting the status of Hindus",
+                      description : <span>A poem lamenting the status of Hindus (published in Daily <i>Milap</i> on 6 September 1928)</span>,
                       title : "Sample Title",
                       source : "Research Society of Pakistan, University of Punjab",
                       render : ()=> <img alt="Poem" src={Poem2} id={overlay_styles.Poem2}></img>,
