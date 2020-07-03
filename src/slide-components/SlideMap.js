@@ -196,7 +196,7 @@ const imageArr = [
 
 const slideMap = {
   "home" : {
-    name : "Imagining Lahore as a Hindu City",
+    name : "Re-imagining Lahore as a Hindu city",
     slides : {
       "home" : {
         component : (
@@ -206,7 +206,7 @@ const slideMap = {
                 <div className={slideStyles.slideflex} ref={props.addParallaxAndFadeRef(10)}>
                   <div className={slideStyles.slideContent}>
                     <ProjectTitle
-                      title="Imagining Lahore as a Hindu City"
+                      title="Re-imagining Lahore as a Hindu city"
                       description=<span>The everyday life of Hindus in pre-partition Lahore, their politics, religious movements and literature</span>
                     />
                   </div>
@@ -1584,7 +1584,7 @@ const slideMap = {
     }
   },
   "credits" : {
-    name : "Imagining Lahore as a Hindu City",
+    name : "Re-imagining Lahore as a Hindu city",
     slides : {
       "credits" : {
         component : (
@@ -1595,7 +1595,7 @@ const slideMap = {
                   <div className={slideStyles.slideContent}>
                     <ProjectCredits
                       disclaimer=<span>These projects are based on research conducted by students for the course <i>Walking in the City: Mapping Everyday Life in Lahore.</i></span>
-                      projectName="Imagining Lahore as a Hindu City"
+                      projectName="Re-imagining Lahore as a Hindu city"
                       studentNames="Nawal Fatima Rai, Asiya Syed, Haleema Aurangzeb Abbasi, Maryam Ahmad Kiyani, Maryam Sami Khan, Tehreem Anwar and Zainab Shuja"
                       supervisor={{name: 'Dr Ali Usman Qasmi', desig: 'Associate Professor (History), Department of Humanities and Social Sciences, LUMS'}}
                     />
@@ -1664,7 +1664,7 @@ const mobileSlideMap = {
             return (
               <ProjectTitleMobile
                 image={ProjectTitleBack}
-                title="Imagining Lahore as a Hindu City"
+                title="Re-imagining Lahore as a Hindu city"
                 description=<span>The everyday life of Hindus in pre-partition Lahore, their politics, religious movements and literature</span>
                 to="chapter1"
               />
@@ -2825,7 +2825,7 @@ const mobileSlideMap = {
                 <ProjectCreditsMobile
                   image={ProjectCreditsBack}
                   disclaimer=<span>These projects are based on research conducted by students for the course <i>Walking in the City: Mapping Everyday Life in Lahore.</i></span>
-                  projectName="Imagining Lahore as a Hindu City"
+                  projectName="Re-imagining Lahore as a Hindu city"
                   studentNames="Nawal Fatima Rai, Asiya Syed, Haleema Aurangzeb Abbasi, Maryam Ahmad Kiyani, Maryam Sami Khan, Tehreem Anwar and Zainab Shuja"
                   supervisor={{name: 'Dr Ali Usman Qasmi', desig: 'Associate Professor (History), Department of Humanities and Social Sciences, LUMS'}}
                 />
