@@ -399,7 +399,7 @@ const slideMap = {
                           {
                             description : <span>A poem paying tribute to the D.A.V College is published in Lahore’s Urdu Daily, <i>Milap</i></span>,
                             title : "Sample Title",
-                            source : "Research Society of Pakistan, University of Punjab",
+                            source : "Lahore Museum Library",
                             render : ()=> <img alt="A poem paying tribute to the D.A.V College is published in Lahore’s Urdu Daily, Milap" src={DAVPoem} style={window.innerHeight > 675 ? {width: '56%', marginLeft: '22%'} : {width: '46%', marginLeft: '27%'}}></img>,
                           },
                           {
@@ -411,7 +411,7 @@ const slideMap = {
                           {
                             description : <span>Also known as Mahatama Hansraj, Lala Hans Raj was amongst the prominent leaders of the Arya Samaj in Lahore. He joined the Arya Samaj while a student at Lahore’s Government College. He founded, along with Gurudatta Vidhyarthi, the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in 1886. Hansraj served as the principal of the D.A.V. College for 25 years, and served as the president of the provincial Arya Pradeshik Pratinidhi Sabha. He died in Lahore on 14 November 1938.</span>,
                             title : "Sample Title",
-                            source : "Research Society of Pakistan, University of Punjab",
+                            source : "Punjab Archives",
                             render : ()=> <img alt="Mahatma Hans Raj" src={HansRajBG} style={window.innerHeight > 675 ? {width: '56%', marginLeft: '22%'} : {width: '46%', marginLeft: '27%'}}></img>,
                           },
                           {
@@ -494,25 +494,25 @@ const slideMap = {
                         {
                           description : <span>D.A.V College Lahore (published in Daily <i>Milap</i> Lahore)</span>,
                           title : "",
-                          source : "Research Society of Pakistan, University of Punjab",
+                          source : "Punjab Archives",
                           render : ()=> <img alt="DAV College Old Staff, Lahore" src={DAVStaff} style={{width: '70%', marginLeft: '15%'}}></img>
                         },
                         {
                           description : <span>D.A.V College Lahore (published in Daily <i>Milap</i> Lahore)</span>,
                           title : "",
-                          source : "Research Society of Pakistan, University of Punjab",
+                          source : "Punjab Archives",
                           render : ()=> <img alt="DAV College Lahore" src={DAVLahore} style={{width: '66%', marginLeft: '17%'}}></img>
                         },
                         {
                           description : <span>D.A.V College Multan (published in Daily <i>Milap</i> Lahore)</span>,
                           title : "",
-                          source : "Research Society of Pakistan, University of Punjab",
+                          source : "Punjab Archives",
                           render : ()=> <img alt="DAV College Multan" src={DAVMultan} style={{width: '66%', marginLeft: '17%'}}></img>
                         },
                         {
                           description : <span>D.A.V College Rawalpindi (published in Daily <i>Milap</i> Lahore)</span>,
                           title : "",
-                          source : "Research Society of Pakistan, University of Punjab",
+                          source : "Punjab Archives",
                           render : ()=> <img alt="DAV College Rawalpindi" src={DAVPindi} style={{width: '60%', marginLeft: '20%'}}></img>
                         }
                       ]
@@ -651,7 +651,7 @@ const slideMap = {
                       },{
                         description : <span>A newspaper article on Arya Samaj’s claim that only the Samaj has the ideological strength to address the caste issue in Hindu religious traditions</span>,
                         title : "",
-                        source : "Research Society of Pakistan, University of Punjab",
+                        source : "Punjab University Archives",
                         render : ()=> <img alt="Article" src={ASPrint8} style={{width: '80%', marginLeft: '10%'}}></img>,
                       }]
                     }
@@ -1237,13 +1237,13 @@ const slideMap = {
                       {
                         description : <span>Daily <i>Pratap</i> publishes <i>Shaheed number</i> (Martyrs edition) featuring a portrait of Lala Lajpat Rai along with a couplet (17 November 1929)</span>,
                         title : "Sample Title2",
-                        source : "Research Society of Pakistan, University of Punjab",
+                        source : "Lahore Museum Library",
                         render : ()=> <img alt="Shaheed number, Daily Pratap" src={LLR_Pratap} style={{width: '70%', marginLeft: '15%'}}></img>,
                       },
                       {
                         description : <span>A poem paying tribute to Lala Lajpat Rai (published in Daily <i>Bande Matram</i> on 6 November 1929)</span>,
                         title : "Sample Title",
-                        source : "Research Society of Pakistan, University of Punjab",
+                        source : "Punjab University Archives",
                         render : ()=> <img alt="Poem" src={LLR_Poem1} style={window.innerHeight > 675 ? {width: '80%', marginLeft: '10%'} : {width: '70%', marginLeft: '15%'}}></img>,
                       },
                       {
@@ -1492,7 +1492,7 @@ const slideMap = {
                       {
                         description : <span>Daily <i>Milap</i>, special edition on Mountains (10 July 1928)</span>,
                         title : "Sample Title2",
-                        source : "Research Society of Pakistan, University of Punjab",
+                        source : "Lahore Museum Library",
                         render : ()=> <img alt="Daily Milap, Pahar (Mountain) edition" src={PaharNumber} style={window.innerHeight > 675 ? {width: '65%', marginLeft: '17.5%'} : {width: '55%', marginLeft: '22.5%'}}></img>,
                       },
                       {
@@ -1561,7 +1561,7 @@ const slideMap = {
                       {
                         description : <span>A poem lamenting the status of Hindus (published in Daily <i>Milap</i> on 6 September 1928)</span>,
                         title : "Sample Title",
-                        source : "Research Society of Pakistan, University of Punjab",
+                        source : "Punjab Archives",
                         render : ()=> <img alt="Poem" src={Poem2} style={window.innerHeight > 675 ? {width: '90%', marginLeft: '5%'} : {width: '80%', marginLeft: '10%'}}></img>,
                       },
                       {
@@ -1676,7 +1676,7 @@ const mobileSlideMap = {
     menuInverted: false,
   },
   "chapter1" : {
-    name: "Chapter 1: Background",
+    name: "Chapter 1: Religious Movements",
     component : (
       <MobileSlide>
         {(props) => {
@@ -2003,7 +2003,7 @@ const mobileSlideMap = {
                     {
                       description : <span>A poem paying tribute to the D.A.V College is published in Lahore’s Urdu Daily, <i>Milap</i></span>,
                       title : "Sample Title",
-                      source : "Research Society of Pakistan, University of Punjab",
+                      source : "Lahore Museum Library",
                       render : ()=> <img alt="A poem paying tribute to the D.A.V College is published in Lahore’s Urdu Daily, Milap" src={DAVPoem} id={overlay_styles.DAVPoem}></img>,
                     },
                     {
@@ -2013,15 +2013,31 @@ const mobileSlideMap = {
                       render : ()=> <img alt="Islamia College, Civil Lines Lahore" src={IC} id={overlay_styles.IC}></img>,
                     },
                     {
-                      description : <span>Also known as Mahatama Hansraj, Lala Hans Raj was amongst the prominent leaders of the Arya Samaj in Lahore. He joined the Arya Samaj while a student at Lahore’s Government College. He founded, along with Gurudatta Vidhyarthi, the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in 1886. Hansraj served as the principal of the D.A.V. College for 25 years, and served as the president of the provincial Arya Pradeshik Pratinidhi Sabha. He died in Lahore on 14 November 1938.</span>,
+                      description :
+                      <div>
+                        <p>
+                          Also known as Mahatama Hansraj, Lala Hans Raj was amongst the prominent leaders of the Arya Samaj in Lahore. He joined the Arya Samaj while a student at Lahore’s Government College. He founded, along with Gurudatta Vidhyarthi, the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in 1886. Hansraj served as the principal of the D.A.V. College for 25 years, and served as the president of the provincial Arya Pradeshik Pratinidhi Sabha. He died in Lahore on 14 November 1938.
+                        </p>
+                        <p>
+                        <span><b>Source: Punjab Archives</b></span>
+                        </p>
+                      </div>
+                      ,
                       title : "Sample Title",
-                      source : "Research Society of Pakistan, University of Punjab",
+                      source : "",
                       render : ()=> <img alt="Mahatma Hans Raj" src={HansRajBG} id={overlay_styles.HansRajBG}></img>,
                     },
                     {
-                      description : <span>Pandit Vidyarth was a prominent leader of the Arya Samaj in Multan, and later moved to Lahore after Dayananda’s death. He was born to a wealthy Arora family in Multan. He received his BA and MA degrees at the Government College Lahore. When the news was received of Dayananda’s illness at Ajmer, the Arya Samaj at Lahore chose him - only nineteen years old at that time - and Lala Kivan Das to go to Ajmer to tend to Swami Dayanand. After returning to Lahore, he actively got involved with the Arya Samaj Chapter in Lahore. Along with others - such as Pandit Lekh Ram and Lala Munshi Ram - Datta wanted the DAV curriculum to focus on Vedic ideology and the study of Sanskrit. Such an approach was contrary to the moderate faction of the Arya Samaj who wished to provide English education to Hindus in an environment where their religious outlook was preserved while they received higher education relevant to the needs of the modern world. By 1893, the Arya Samaj was formally divided. The conservatives (led by Pandit Guru Datta) gained control over most of the local Arya Samaj chapters and the Arya Pratinidhi Sabha, Punjab. The moderates kept their hold on to the Managing Committee and the DAV school.</span>,
+                      description : <div>
+                        <p>
+                          <span>Pandit Vidyarth was a prominent leader of the Arya Samaj in Multan, and later moved to Lahore after Dayananda’s death. He was born to a wealthy Arora family in Multan. He received his BA and MA degrees at the Government College Lahore. When the news was received of Dayananda’s illness at Ajmer, the Arya Samaj at Lahore chose him - only nineteen years old at that time - and Lala Kivan Das to go to Ajmer to tend to Swami Dayanand. After returning to Lahore, he actively got involved with the Arya Samaj Chapter in Lahore. Along with others - such as Pandit Lekh Ram and Lala Munshi Ram - Datta wanted the DAV curriculum to focus on Vedic ideology and the study of Sanskrit. Such an approach was contrary to the moderate faction of the Arya Samaj who wished to provide English education to Hindus in an environment where their religious outlook was preserved while they received higher education relevant to the needs of the modern world. By 1893, the Arya Samaj was formally divided. The conservatives (led by Pandit Guru Datta) gained control over most of the local Arya Samaj chapters and the Arya Pratinidhi Sabha, Punjab. The moderates kept their hold on to the Managing Committee and the DAV school.</span>
+                        </p>
+                        <p>
+                        <span><b>Source: Wikipedia</b></span>
+                        </p>
+                      </div>,
                       title : "Sample Title",
-                      source : "Wikipedia",
+                      source : "",
                       render : ()=> <img alt="Pandit Guru Datta Vidhyarthi" src={Gurudatta} id={overlay_styles.Gurudatta}></img>,
                     }
 
@@ -2039,25 +2055,25 @@ const mobileSlideMap = {
                     {
                       description : <span>D.A.V College Lahore (published in Daily <i>Milap</i> Lahore)</span>,
                       title : "",
-                      source : "Research Society of Pakistan, University of Punjab",
+                      source : "Punjab Archives",
                       render : ()=> <img alt="DAV College Old Staff, Lahore" src={DAVStaff} id={overlay_styles.DAVStaff}></img>
                     },
                     {
                       description : <span>D.A.V College Lahore (published in Daily <i>Milap</i> Lahore)</span>,
                       title : "",
-                      source : "Research Society of Pakistan, University of Punjab",
+                      source : "Punjab Archives",
                       render : ()=> <img alt="DAV College Lahore" src={DAVLahore} id={overlay_styles.DAVLahore}></img>
                     },
                     {
                       description : <span>D.A.V College Multan (published in Daily <i>Milap</i> Lahore)</span>,
                       title : "",
-                      source : "Research Society of Pakistan, University of Punjab",
+                      source : "Punjab Archives",
                       render : ()=> <img alt="DAV College Multan" src={DAVMultan} id={overlay_styles.DAVMultan}></img>
                     },
                     {
                       description : <span>D.A.V College Rawalpindi (published in Daily <i>Milap</i> Lahore)</span>,
                       title : "",
-                      source : "Research Society of Pakistan, University of Punjab",
+                      source : "Punjab Archives",
                       render : ()=> <img alt="DAV College Rawalpindi" src={DAVPindi} id={overlay_styles.DAVPindi}></img>
                     }
                   ]
@@ -2127,7 +2143,7 @@ const mobileSlideMap = {
                   },{
                     description : <span>A newspaper article on Arya Samaj’s claim that only the Samaj has the ideological strength to address the caste issue in Hindu religious traditions</span>,
                     title : "",
-                    source : "Research Society of Pakistan, University of Punjab",
+                    source : "Punjab University Archives",
                     render : ()=> <img alt="Article" src={ASPrint8} id={overlay_styles.ASPrint8}></img>,
                   }]
                 }
@@ -2152,16 +2168,30 @@ const mobileSlideMap = {
                     render : ()=> <img alt="A published lecture on Brahmo Samaj" src={MOBrahmo} id={overlay_styles.MOBrahmo}></img>,
                   },
                   {
-                    description : <span>An ardent Brahmo and an enthusiastic social reformer, Agnihotri was a key figure in the religious polemics taking place in Lahore. Usually, he conducted the weekly Divine Service in the Brahmo Mandir in Lahore. In 1882, Agnihotri gave up his appointment in the Educational Department and publicly accepted the role of a <i>sanyasi</i> at the Brahmo Mandir in Lahore. His name was changed by Pandit Navin Chandrs Rai to Swami Satyanand Agnihotri. Sahini notes that this was the first occasion when an English-educated person had given up a well-paid post in order to devote his life to public preaching. Agnihotri formed a new centre for his religious activities, called the Dev Samaj, which was another place for preaching Brahmoism with greater zeal than was possible in the neutral Brahmo Samaj. He also published his inspiring work, <i>Ruhani Zindagi</i> (Spiritual Life), copies of which were to be found in many Brahmo households. In 1892, he announced himself as the ‘Deva Guru Bhagwan’, lost complete faith in God, called his religion ‘Science grounded’, and adopted all the symbols of orthodox Hinduism that he had so enthusiastically discarded upon his joining the Brahmo Samaj.
-                    </span>,
+                    description : <div>
+                      <p>
+                      <span>An ardent Brahmo and an enthusiastic social reformer, Agnihotri was a key figure in the religious polemics taking place in Lahore. Usually, he conducted the weekly Divine Service in the Brahmo Mandir in Lahore. In 1882, Agnihotri gave up his appointment in the Educational Department and publicly accepted the role of a <i>sanyasi</i> at the Brahmo Mandir in Lahore. His name was changed by Pandit Navin Chandrs Rai to Swami Satyanand Agnihotri. Sahini notes that this was the first occasion when an English-educated person had given up a well-paid post in order to devote his life to public preaching. Agnihotri formed a new centre for his religious activities, called the Dev Samaj, which was another place for preaching Brahmoism with greater zeal than was possible in the neutral Brahmo Samaj. He also published his inspiring work, <i>Ruhani Zindagi</i> (Spiritual Life), copies of which were to be found in many Brahmo households. In 1892, he announced himself as the ‘Deva Guru Bhagwan’, lost complete faith in God, called his religion ‘Science grounded’, and adopted all the symbols of orthodox Hinduism that he had so enthusiastically discarded upon his joining the Brahmo Samaj.
+                      </span>
+                      </p>
+                      <p>
+                      <span><b>Source: Wikipedia</b></span>
+                      </p>
+                    </div>,
                     title : "Sample Title",
-                    source : "Wikipedia",
+                    source : "",
                     render : ()=> <img alt="Pandit Shiv Narain Agnihotri" src={AgnihotriJP} id={overlay_styles.AgnihotriJP}></img>,
                   },
                   {
-                    description : "Admitted as a Brahmo Samaj sympathizer within a year or two after his arrival at Lahore, Sahini established a Young Men’s Religious Association in conjunction with Bhai Kashi Ram, which used to meet weekly in the Mandir. He was the Secretary of the Association which organized prayer meetings, lectures, and debates. ‘Book Revelation’, ‘The Existence of God’, ‘The Existence of Evil’ and ‘Prayer’ were among the chief subjects of discussion. Public debates on religious and social subjects through scholarly works like ‘Tennyson and Science’, ‘Mysticism in English Poetry’, and ‘Shakespeare as a Moralist’ also took place regularly. He was the Assistant Professor of Science (Physics and Chemistry) at Government College Lahore. He retired at the age of 55 in 1918, but continued to live in the city as an active participant in its social and political life till 1947. He died a year after the Partition.",
+                    description : <div>
+                      <p>
+                        Admitted as a Brahmo Samaj sympathizer within a year or two after his arrival at Lahore, Sahini established a Young Men’s Religious Association in conjunction with Bhai Kashi Ram, which used to meet weekly in the Mandir. He was the Secretary of the Association which organized prayer meetings, lectures, and debates. ‘Book Revelation’, ‘The Existence of God’, ‘The Existence of Evil’ and ‘Prayer’ were among the chief subjects of discussion. Public debates on religious and social subjects through scholarly works like ‘Tennyson and Science’, ‘Mysticism in English Poetry’, and ‘Shakespeare as a Moralist’ also took place regularly. He was the Assistant Professor of Science (Physics and Chemistry) at Government College Lahore. He retired at the age of 55 in 1918, but continued to live in the city as an active participant in its social and political life till 1947. He died a year after the Partition.
+                      </p>
+                      <p>
+                      <span><b>Source: https://ruchiramsahni.wordpress.com/</b></span>
+                      </p>
+                    </div>,
                     title : "Sample Title",
-                    source : "https://ruchiramsahni.wordpress.com/",
+                    source : "",
                     render : ()=> <img alt="Ruchi Ram Sahini" src={RuchiRam} id={overlay_styles.RuchiRam}></img>,
                   }]
                 }
@@ -2239,7 +2269,7 @@ const mobileSlideMap = {
     menuInverted : true,
   },
   "chapter2": {
-    name: "Chapter 2: The Killing",
+    name: "Chapter 2: Politics",
     component : (
       <MobileSlide>
       {
@@ -2404,7 +2434,7 @@ const mobileSlideMap = {
                 <NextChapterTitle
                   inverted
                   image={Chapter3Title}
-                  title="The Trial"
+                  title="Newspapers"
                   nextChapter="chapter3"
                   prevChapter="chapter1"
                 />
@@ -2507,13 +2537,13 @@ const mobileSlideMap = {
                     {
                       description : <span>Daily <i>Pratap</i> publishes <i>Shaheed number</i> (Martyrs edition) featuring a portrait of Lala Lajpat Rai along with a couplet (17 November 1929)</span>,
                       title : "Sample Title2",
-                      source : "Research Society of Pakistan, University of Punjab",
+                      source : "Lahore Museum Library",
                       render : ()=> <img alt="Shaheed number, Daily Pratap" src={LLR_Pratap} id={overlay_styles.LLR_Pratap}></img>,
                     },
                     {
                       description : <span>A poem paying tribute to Lala Lajpat Rai (published in Daily <i>Bande Matram</i> on 16 November 1929)</span>,
                       title : "Sample Title",
-                      source : "Research Society of Pakistan, University of Punjab",
+                      source : "Punjab University Archives",
                       render : ()=> <img alt="Poem" src={LLR_Poem1} id={overlay_styles.LLR_Poem1}></img>,
                     },
                     {
@@ -2560,7 +2590,7 @@ const mobileSlideMap = {
     menuInverted: true
   },
   "chapter3": {
-    name: "Chapter 3: The Trial",
+    name: "Chapter 3: Newspapers",
     component : (
       <MobileSlide>
       {
@@ -2733,7 +2763,7 @@ const mobileSlideMap = {
                     {
                       description : <span>Daily <i>Milap</i>, special edition on Mountains (10 July 1928)</span>,
                       title : "Sample Title2",
-                      source : "Research Society of Pakistan, University of Punjab",
+                      source : "Lahore Museum Library",
                       render : ()=> <img alt="Daily Milap, Pahar (Mountain) edition" src={PaharNumber} id={overlay_styles.PaharNumber}></img>,
                     },
                     {
@@ -2766,7 +2796,7 @@ const mobileSlideMap = {
                     {
                       description : <span>A poem lamenting the status of Hindus (published in Daily <i>Milap</i> on 6 September 1928)</span>,
                       title : "Sample Title",
-                      source : "Research Society of Pakistan, University of Punjab",
+                      source : "Punjab Archives",
                       render : ()=> <img alt="Poem" src={Poem2} id={overlay_styles.Poem2}></img>,
                     },
                     {
