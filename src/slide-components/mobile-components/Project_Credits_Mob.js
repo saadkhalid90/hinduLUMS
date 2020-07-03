@@ -4,6 +4,7 @@ import LUMS_logo from '../../resources/lums_orig.png';
 import classNames from 'classnames';
 import { MdExpandLess } from "react-icons/md";
 import { Link } from "react-router-dom";
+import LUMS_Arch_logo from '../../resources/Archive Logo.png';
 
 class ProjectCreditsMobile extends Component {
   plotree = () => {
@@ -42,6 +43,9 @@ class ProjectCreditsMobile extends Component {
               <p onClick={(e) => this.openLink(e, "https://archive.lums.edu.pk/interactives/home")} className={styles.browse_more_projMessage}>Browse Other Projects</p>
             </div>
           </div>
+        </div>
+        <div className={styles.lums_archive} onClick={(e) => this.openLink(e, "https://archive.lums.edu.pk/")}>
+          <img alt="LUMS Digital Archive" className={styles.image_arch_logo} src={LUMS_Arch_logo}/>
         </div>
         <div className={styles.designed_by} onClick={() => this.plotree()}>
           <i style={{marginRight: '10px'}}>Designed by Plotree Info Design</i>

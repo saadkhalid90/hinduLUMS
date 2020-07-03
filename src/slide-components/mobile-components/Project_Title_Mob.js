@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styles from '../css-modules/project_title.module.css';
 import LUMS_logo from '../../resources/lums_orig.png';
-import { MdExpandMore } from "react-icons/md";
+import { GiClick } from "react-icons/gi";
 import { Link } from "react-router-dom";
 import classNames from 'classnames';
 
@@ -38,9 +38,9 @@ class ProjectTitle_Mobile extends Component {
               <p className={classNames(styles.description, this.props.inverted && styles.desc_invert)}>{this.props.description}</p>
             </div>
             <div className={styles.scroll_prompt}>
-              <p className={classNames(styles.title_scroll_message, this.props.inverted && styles.desc_invert)}>Scroll Down</p>
+              <p className={classNames(styles.title_scroll_message, this.props.inverted && styles.desc_invert)}>Click to</p>
               <p className={classNames(styles.title_explore_message, this.props.inverted && styles.desc_invert)}>Explore the Project</p>
-              <div className={classNames(styles.chevron, this.props.inverted && styles.chevron_invert)}><MdExpandMore/></div>
+              <div className={classNames(styles.chevron, this.props.inverted && styles.chevron_invert)}><GiClick size={18}/></div>
             </div>
           </div>
           <div className={styles.designed_by} onClick={() => this.plotree()}>
