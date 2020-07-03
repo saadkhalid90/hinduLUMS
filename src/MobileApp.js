@@ -9,7 +9,7 @@ import './App.css';
 import MobileContainer from './slide-components/MobileContainer';
 import {mobileSlideMap, mobileImageArr} from './slide-components/SlideMap';
 import ReactGA from 'react-ga';
-ReactGA.initialize('UA-165837184-7');
+ReactGA.initialize('UA-165837184-10');
 
 class MobileApp extends React.Component {
 

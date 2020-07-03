@@ -111,10 +111,10 @@ class ProjectsNav extends Component {
             <p className={styles.projectTitle} onClick={() => window.location = "https://archive.lums.edu.pk/interactives/two-murders/home"} onMouseOver={() => this.setOpacity('twomurders',1)} onMouseOut={() => this.setOpacity('twomurders',0)}><span className={styles.underline}>Two murders, Two trials</span></p>
           </div>
           <div className={styles.navItem}>
-            <p className={styles.projectTitle} onMouseOver={() => this.setOpacity('hindu',1)} onMouseOut={() => this.setOpacity('hindu',0)}><span className={styles.underline}>Re-imagining Lahore as a Hindu city</span></p>
+            <p className={styles.projectTitle} onClick={() => window.location = "https://archive.lums.edu.pk/interactives/hindu/home"} onMouseOver={() => this.setOpacity('hindu',1)} onMouseOut={() => this.setOpacity('hindu',0)}><span className={styles.underline}>Re-imagining Lahore as a Hindu city</span></p>
           </div>
           <div className={styles.navItem}>
-            <p className={styles.projectTitle} onMouseOver={() => this.setOpacity('mallroad',1)} onMouseOut={() => this.setOpacity('mallroad', 0)}><span className={styles.underline}>The Mall – history and culture, now and then</span></p>
+            <p className={styles.projectTitle} onClick={() => window.location = "https://archive.lums.edu.pk/interactives/mall-road/home"} onMouseOver={() => this.setOpacity('mallroad',1)} onMouseOut={() => this.setOpacity('mallroad', 0)}><span className={styles.underline}>The Mall – history and culture, now and then</span></p>
           </div>
         </div>
         <div ref={this.delayedFade}>

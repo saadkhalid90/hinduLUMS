@@ -144,10 +144,10 @@ class ProjectsNav extends Component {
               <p className={styles.projectTitle}><span onClick={(e) => this.openLink(e, "https://archive.lums.edu.pk/interactives/two-murders/home")} className={styles.underline}>Two murders, Two trials</span></p>
             </div>
             <div className={styles.navItem}>
-              <p className={styles.projectTitle}><span onClick={(e) => e.preventDefault()} className={styles.underline}>Re-imagining Lahore as a Hindu city <span className={styles.onlineSoon}>(Online Soon)</span></span></p>
+              <p className={styles.projectTitle}><span onClick={(e) => this.openLink(e, "https://archive.lums.edu.pk/interactives/hindu/home")} className={styles.underline}>Re-imagining Lahore as a Hindu city</span></p>
             </div>
             <div className={styles.navItem}>
-              <p className={styles.projectTitle}><span onClick={(e) => e.preventDefault()} className={styles.underline}>The Mall – history and culture, now and then <span className={styles.onlineSoon}>(Online Soon)</span></span></p>
+              <p className={styles.projectTitle}><span onClick={(e) => this.openLink(e, "https://archive.lums.edu.pk/interactives/mall-road/home")} className={styles.underline}>The Mall – history and culture, now and then</span></p>
             </div>
           </div>
         </div>

@@ -9,7 +9,7 @@ import './App.css';
 import Container from './slide-components/Container';
 import {slideMap, imageArr} from './slide-components/SlideMap';
 import ReactGA from 'react-ga';
-ReactGA.initialize('UA-165837184-7');
+ReactGA.initialize('UA-165837184-10');
 
 class App extends React.Component {
 
