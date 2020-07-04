@@ -172,6 +172,11 @@
     margin: 0px;
     overflow: hidden;
   }
+
+  .project_title_content {
+    height: 100%;
+  }
+  
   .absoluteBack {
     position: absolute;
     top: 0px;

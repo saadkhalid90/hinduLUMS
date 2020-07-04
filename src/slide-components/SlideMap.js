@@ -297,7 +297,7 @@ const slideMap = {
                       slides={
                         [
                           {
-                            description : "A portrait of Swami Dayananda, the founder of the Hindu reformist movement Arya",
+                            description : "A portrait of Swami Dayananda, the founder of the Hindu reformist movement Arya Samaj",
                             title : "Sample Title",
                             source : "archive.org",
                             render : ()=> <img alt="A portrait of Swami Dayananda, the founder of Arya Samaj" src={SwamiDyan} style={window.innerHeight > 675 ? {width: '56%', marginLeft: '22%'} : {width: '46%', marginLeft: '27%'}}></img>,
@@ -363,7 +363,7 @@ const slideMap = {
                        xPos={props.xPos}>
                        <Layout fixed_width layoutClassName="layout_flexed">
                          <div ref={props.addParallaxAndFadeRef(8)} className={classNames(layoutStyles.layout_container, layoutStyles.container_60, layoutStyles.align_center, layoutStyles.justify_center)}>
-                            <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>The Arya Samaj initially lacked any central organization and each Samaj was independent. Dayananda’s death led to disintegration, but also to a burst of energy, as numerous groups sought to honour their departed teacher. They were nearly unanimous in the desire to establish a school that would impart his Vedic form of Hinduism, and thus be safe from Christian influence. The Lahore Samaj drafted plans for this institution and on 6 December 1883 set up a subcommittee to raise funds. Initially they were quite successful, but by 1884 enthusiasm for the project had waned. In 1885 Lala Hans Raj promised to serve as the principal of the school without pay, which rekindled the enthusiasm for founding the college. He, along with Gurudatta Vidhyarthi, finally established the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in June 1886.</p>
+                            <p className = {classNames(slideStyles.slidePara, slideStyles.white)}>The Arya Samaj initially lacked any central organization and each Samaj was independent. Dayananda’s death led to disintegration, but also to a burst of energy, as numerous groups sought to honour the memory of their departed teacher. They were nearly unanimous in the desire to establish a school that would impart his Vedic form of Hinduism, and thus be safe from Christian influence. The Lahore Samaj drafted plans for this institution and on 6 December 1883 set up a subcommittee to raise funds. Initially they were quite successful, but by 1884 enthusiasm for the project had waned. In 1885 Lala Hans Raj promised to serve as the principal of the school without pay, which rekindled the enthusiasm for founding the college. He, along with Gurudatta Vidhyarthi, finally established the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in June 1886.</p>
                          </div>
                          <div className={classNames(layoutStyles.layout_container, layoutStyles.container_40, layoutStyles.align_center, layoutStyles.justify_center)}>
                             <div ref={props.addParallaxAndFadeRef(7)} id={imageStyles.DAVPoem} className={classNames(imageStyles.rotate_0_dec_75, imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",0])} >
@@ -403,7 +403,7 @@ const slideMap = {
                             render : ()=> <img alt="A poem paying tribute to the D.A.V College is published in Lahore’s Urdu Daily, Milap" src={DAVPoem} style={window.innerHeight > 675 ? {width: '56%', marginLeft: '22%'} : {width: '46%', marginLeft: '27%'}}></img>,
                           },
                           {
-                            description : <span>D.A.V College Lahore's Campus was converted to Islamia College, Civil Lines, Lahore after partition</span>,
+                            description : <span>D.A.V College Lahore's Campus was renamed as Islamia College Lahore after partition</span>,
                             title : "Sample Title",
                             source : "",
                             render : ()=> <img alt="Islamia College, Civil Lines Lahore" src={IC} style={window.innerHeight > 675 ? {width: '80%', marginLeft: '10%'} : {width: '70%', marginLeft: '15%'}}></img>,
@@ -861,19 +861,19 @@ const slideMap = {
                         </div>
                         ,
                         title : "Sample Title",
-                        source : "archive.org",
+                        source : "Photo by Faizan Abbas Naqvi",
                         render : ()=> <img alt="Brahmo Samaj Mandir" src={BrahmoSamajMandir} style={window.innerHeight > 675 ? {width: '60%', marginLeft: '20%'} : {width: '50%', marginLeft: '25%'}}></img>,
                       },
                       {
                         description : <span>Sanatan Dharam Mandir</span>,
                         title : "Sample Title",
-                        source : "Wikipedia",
+                        source : "Photo by Faizan Abbas Naqvi",
                         render : ()=> <img alt="Sanatan Dharam Mandir" src={SDharam} style={window.innerHeight > 675 ? {width: '90%', marginLeft: '5%'} : {width: '80%', marginLeft: '10%'}}></img>,
                       },
                       {
                         description : "Dev Samaj Mandir",
                         title : "Sample Title",
-                        source : "https://ruchiramsahni.wordpress.com/",
+                        source : "Photo by Faizan Abbas Naqvi",
                         render : ()=> <img alt="Dev Samaj Mandir" src={DevSamajMandir} style={window.innerHeight > 675 ? {width: '65%', marginLeft: '17.5%'} : {width: '55%', marginLeft: '22.5%'}}></img>,
                       }]
                     }
@@ -1344,7 +1344,7 @@ const slideMap = {
                        xPos={props.xPos}>
                        <Layout fixed_width layoutClassName="layout_flexed">
                          <div ref={props.addParallaxAndFadeRef(5)} className={classNames(layoutStyles.layout_container, layoutStyles.container_60, layoutStyles.align_center, layoutStyles.justify_center)}>
-                            <p className={slideStyles.slidePara}>Unlike UP and Bihar where the demand to replace Urdu with Devanagari script was popular, there was no serious threat to the status of Urdu in Punjab as the medium of instruction in public schools and an effective mode of social, political and religious commentary. Therefore, even those newspapers that claimed to present the case of discrimination faced by Hindus and argued for nationalist politics, chose Urdu as the medium of communication. <i>Milap</i>, <i>Pratap</i> and <i>Bande Matram</i> were major Urdu dailies published from Lahore and widely read by the city’s Hindu community. <i>Milap</i> continued to be published in post-1947 Eastern Punjab as well where a large number of Hindu and Sikhs subscribed to it as they were literate in Urdu only. One such person is Manmohan Singh - the former prime minister of India - who received his early education in British Punjab, and is therefore a fluent reader of Urdu. His ‘Hindi speeches’ were, therefore, written in Urdu script.</p>
+                            <p className={slideStyles.slidePara}>Unlike UP and Bihar where the demand to replace Urdu with Devanagari script was popular, there was no serious threat to the status of Urdu in Punjab as the medium of instruction in public schools and an effective mode of social, political and religious commentary. Therefore, even those newspapers that claimed to present the case of discrimination faced by Hindus and argued for nationalist politics, chose Urdu as the medium of communication. <i>Milap</i>, <i>Pratap</i> and <i>Bande Matram</i> were major Urdu dailies published from Lahore and widely read by the city’s Hindu community. <i>Milap</i> continued to be published in post-1947 Eastern Punjab as well where a large number of Hindu and Sikhs subscribed to it as they were literate in Urdu only. One such person is Manmohan Singh - the former prime minister of India - who received his early education in British Punjab and is a fluent reader of Urdu. His ‘Hindi speeches’ were, therefore, written in Urdu script.</p>
                          </div>
                          <div className={classNames(layoutStyles.layout_container, layoutStyles.container_40, layoutStyles.align_center, layoutStyles.justify_center)}>
                             <div ref={props.addParallaxAndFadeRef(-5)} id={imageStyles.MilapCover} className={classNames(imageStyles.effected_image)} onClick={()=> props.setDisplayedOverlay(["1",0])} >
@@ -1736,7 +1736,7 @@ const mobileSlideMap = {
               />
 
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100, mobileStyles.increased_padded_top, mobileStyles.increased_padded_bottom)}>
-                <p className={mobileStyles.mobilePara}>The Arya Samaj initially lacked any central organization and each Samaj was independent. Dayananda’s death led to disintegration, but also to a burst of energy, as numerous groups sought to honour their departed teacher. They were nearly unanimous in the desire to establish a school that would impart his Vedic form of Hinduism, and thus be safe from Christian influence. The Lahore Samaj drafted plans for this institution and on 6 December 1883 set up a subcommittee to raise funds. Initially they were quite successful, but by 1884 enthusiasm for the project had waned. In 1885 Lala Hans Raj promised to serve as the principal of the school without pay, which rekindled the enthusiasm for founding the college. He, along with Gurudatta Vidhyarthi, finally established the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in June 1886.</p>
+                <p className={mobileStyles.mobilePara}>The Arya Samaj initially lacked any central organization and each Samaj was independent. Dayananda’s death led to disintegration, but also to a burst of energy, as numerous groups sought to honour the memory of their departed teacher. They were nearly unanimous in the desire to establish a school that would impart his Vedic form of Hinduism, and thus be safe from Christian influence. The Lahore Samaj drafted plans for this institution and on 6 December 1883 set up a subcommittee to raise funds. Initially they were quite successful, but by 1884 enthusiasm for the project had waned. In 1885 Lala Hans Raj promised to serve as the principal of the school without pay, which rekindled the enthusiasm for founding the college. He, along with Gurudatta Vidhyarthi, finally established the Dayanand Anglo-Vedic Schools System (D.A.V.) in Lahore in June 1886.</p>
               </div>
 
               <div className={classNames(mobileStyles.mobile_layout, mobileStyles.mobile_layout_100)}>
@@ -1978,7 +1978,7 @@ const mobileSlideMap = {
                 slides={
                   [
                     {
-                      description : "A portrait of Swami Dayananda, the founder of the Hindu reformist movement Arya",
+                      description : "A portrait of Swami Dayananda, the founder of the Hindu reformist movement Arya Samaj",
                       title : "Sample Title",
                       source : "archive.org",
                       render : ()=> <img alt="A portrait of Swami Dayananda, the founder of Arya Samaj" src={SwamiDyan} id={overlay_styles.SwamiDyan}></img>,
@@ -2007,7 +2007,7 @@ const mobileSlideMap = {
                       render : ()=> <img alt="A poem paying tribute to the D.A.V College is published in Lahore’s Urdu Daily, Milap" src={DAVPoem} id={overlay_styles.DAVPoem}></img>,
                     },
                     {
-                      description : <span>D.A.V College Lahore's Campus was converted to Islamia College, Civil Lines, Lahore after partition</span>,
+                      description : <span>D.A.V College Lahore's Campus was renamed as Islamia College Lahore after partition</span>,
                       title : "Sample Title",
                       source : "",
                       render : ()=> <img alt="Islamia College, Civil Lines Lahore" src={IC} id={overlay_styles.IC}></img>,
